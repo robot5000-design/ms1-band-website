@@ -23,7 +23,7 @@ body {
 }
 
 .hero-image {
-  background: url(../images/hero_image2.jpg) no-repeat top center fixed;
+  background: url(../images/hero_image2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -39,7 +39,13 @@ body {
 }
 
 .djshadow-icon {
-  width: 50%;
+  width: 200px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #3f3f3f;
+    border: 2px solid #fafafa;
+    margin-right: 15px;    
 }
 
 .hero-image {
@@ -60,8 +66,8 @@ body {
 }
 
 .footer-container {
-  background-color: #2b2c2b;
-  min-height: 150px;
+  background-color: #3f3f3f;
+  min-height: 160px;
   text-align: center;
 }
 
