@@ -1,27 +1,46 @@
-
 /*--------------------General Rule */
 
 *,
 *::before,
 *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    color: blue;
+  background-color: #ac9740;
 }
 
-.navbar {
-    background-color: #ac9740;
-}
-
-.djshadow-icon {
-    width: 200px;
+.hero-container {
+  margin: 0;
+  padding: 0;  
 }
 
 .hero-image {
-    width: 100%;
+  background: url(../images/hero_image2.jpg) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+  display: flex;
 }
 
+.navbar {
+  background-color: #ac9740;
+  position: relative;
+}
+
+.djshadow-icon {
+  width: 50%;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+p {
+  line-height: 100px;
+}
