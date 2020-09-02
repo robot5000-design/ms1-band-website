@@ -1,7 +1,13 @@
 /*--------------------General Rule */
+/*
+* {
+ background: #000 !important;
+ color: #0f0 !important;
+ outline: solid #f00 1px !important;
+} */
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto+Mono:wght@500;700&display=swap");
-
+/*
 *,
 *::before,
 *::after {
@@ -9,7 +15,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
-}
+} */
 
 body {
   background-color: #ac9740;
@@ -43,9 +49,25 @@ body {
 }
 
 .navbar-dark .navbar-toggler {
-    color: #3f3f3f;
-    border: 2px solid #fafafa;
-    margin-right: 15px;    
+  color: #3f3f3f;
+  border: 1px solid #fafafa;
+  margin-right: 15px;
+}
+
+#navbarNavDropdown ul li {
+  font-family: 'Roboto Mono', monospace;
+  color: #fafafa;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+#navbarNavDropdown {
+    justify-content: flex-end;
+}
+
+#navbarNavDropdown ul {
+    text-align: end;
 }
 
 .hero-image {
@@ -78,18 +100,18 @@ body {
 }
 
 .social-links {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .footer-terms-item a,
 .footer-terms-item p {
-    font-family: "Roboto", monospace;
-    font-weight: 500;
-    color: #fafafa;
-    padding: 5px auto;
-    margin: 5px auto;
+  font-family: "Roboto", monospace;
+  font-weight: 500;
+  color: #fafafa;
+  padding: 5px auto;
+  margin: 5px auto;
 }
 
 .footer-terms {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
