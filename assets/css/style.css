@@ -82,7 +82,7 @@ body {
   0%   {background-color:  rgba(0, 0, 0, 1);}
   100% {background-color:  rgba(0, 0, 0, 0);}
 }
-
+/*
 .opaque-overlay {
   background-color: rgba(0, 0, 0, 1);
   top: 0;
@@ -95,7 +95,7 @@ body {
   animation-delay: .5s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-}
+}*/
 /*
 .hero-image {
   background: url(../images/hero_image2.jpg) no-repeat center center fixed;
