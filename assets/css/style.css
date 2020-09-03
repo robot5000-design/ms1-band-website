@@ -96,7 +96,7 @@ body {
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
-
+/*
 .hero-image {
   background: url(../images/hero_image2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -106,10 +106,25 @@ body {
   height: 600px;
   position: relative;
   display: flex;
+} */
+
+.hero-image:after{
+      content:"";
+      position:relative; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:80vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      
+      z-index: -1; /* needed to keep in the background */
+      background: url(../images/hero_image2.jpg) no-repeat fixed;
+      
+      background-size: contain;
+      display: flex;
 }
 
 .hero-image {
-  width: 100%;
+ /* width: 100%;*/
 }
 
 /*--------------------Home Main Text */
