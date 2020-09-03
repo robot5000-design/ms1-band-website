@@ -20,7 +20,8 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   margin: 0;
 }
 
@@ -30,21 +31,7 @@ body {
   padding: 0;
 }
 
-.hero-container {
-  margin: 0;
-  padding: 0;
-}
-
-.hero-image {
-  background: url(../images/hero_image2.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 70vh;
-  position: relative;
-  display: flex;
-}
+/*--------------------Navbar */
 
 .navbar {
   background-color: #ac9740;
@@ -83,9 +70,29 @@ body {
   text-align: end;
 }
 
+/*--------------------Home Background Image */
+
+.hero-container {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-image {
+  background: url(../images/hero_image2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+  display: flex;
+}
+
 .hero-image {
   width: 100%;
 }
+
+/*--------------------Home Main Text */
 
 .quote-container p {
   font-family: "Oswald", sans-serif;
@@ -100,6 +107,8 @@ body {
   width: 100%;
 }
 
+/*--------------------Home Video Container */
+
 .video-form-container .home-video {
   max-width: 500px;
   max-height: 500px;
@@ -112,6 +121,8 @@ body {
   text-align: center;
 }
 
+/*--------------------Footer */
+
 .footer-container {
   background-color: #3f3f3f;
   min-height: 160px;
@@ -121,7 +132,7 @@ body {
 .footer-container li a i {
   color: #fafafa;
   font-size: 28px;
-  padding: 0 10px;
+  padding: 20px 10px;
 }
 
 .social-links {
@@ -133,7 +144,6 @@ body {
   font-family: "Roboto", monospace;
   font-weight: 500;
   color: #fafafa;
-  padding: 5px auto;
   margin: 0 auto;
   text-decoration: none;
 }
@@ -151,6 +161,10 @@ body {
   color: #ac9740;
 }
 
-.footer-terms {
-  padding-bottom: 10px;
+.footer-terms .footer-terms-item {
+  padding-bottom: 25px;
+}
+
+.footer-terms .copyright-message {
+  padding-bottom: 60px;
 }
