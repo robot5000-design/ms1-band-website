@@ -52,10 +52,9 @@ body h5 {
 
 .navbar-dark .navbar-toggler {
   color: #3f3f3f;
-  border: 1px solid #fafafa;
+  border: 0;
   margin-right: 15px;
   font-size: 1.6rem;
-  border: 0;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -179,6 +178,39 @@ body h5 {
   margin: 0 auto 50px;
 }
 
+.overlay-container {
+  width: 100%;
+  position: relative;
+}
+
+/* referenced w3schools.com for assist with this effect */
+.spotify-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  background-color: #3f3f3fa4;
+  border-radius: 10px;
+}
+
+.overlay-container:hover .spotify-overlay {
+  opacity: 1;
+}
+
+.spotify-overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #1db954;
+  transform: scale(4);
+}
+
 /*--------------------Subscription Container */
 
 .subscription-container {
@@ -290,4 +322,8 @@ body h5 {
   .video-container .caption-text {
     padding-top: 20px;
   }
+
+	.spotify-overlay i {
+  	transform: scale(3);
+	}
 }
