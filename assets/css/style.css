@@ -113,7 +113,7 @@ body h5 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 70vh;
+  height: 80vh;
   position: relative;
   display: flex;
 }
@@ -205,10 +205,14 @@ body h5 {
 
 .spotify-overlay i {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   color: #1db954;
   transform: scale(4);
+}
+
+.album-name {
+  margin-top: 40%;
 }
 
 /*--------------------Subscription Container */
@@ -323,7 +327,7 @@ body h5 {
     padding-top: 20px;
   }
 
-	.spotify-overlay i {
-  	transform: scale(3);
-	}
+  .spotify-overlay i {
+    transform: scale(3);
+  }
 }
