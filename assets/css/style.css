@@ -79,8 +79,12 @@ body {
 }
 
 @keyframes lights-on {
-  0%   {background-color:  rgba(0, 0, 0, 1);}
-  100% {background-color:  rgba(0, 0, 0, 0);}
+  0% {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+  }
 }
 
 .opaque-overlay {
@@ -92,7 +96,7 @@ body {
   position: absolute;
   animation-name: lights-on;
   animation-duration: 3s;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
@@ -123,22 +127,70 @@ body {
 }
 
 .quote-container {
-  padding: 30px 50px;
+  padding: 30px 50px 80px;
   width: 100%;
 }
 
 /*--------------------Home Video Container */
 
 .video-form-container .home-video {
-  max-width: 500px;
-  max-height: 500px;
-  padding-right: ;
-  padding-bottom: 50px;
+  max-width: 200px;
+  padding: 20px 30px 50px;
   margin: 0 auto;
 }
 
 .video-form-container h5 {
   text-align: center;
+}
+
+.pathetic-image {
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.subscription-container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.subscription-container h5 {
+  font-family: "Roboto", monospace;
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.form-elements-wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-input {
+  width: 400px;
+  border: 2px solid #3f3f3f;
+  border-radius: 10px;
+}
+
+.button-wrapper {
+    padding-left: 20px;
+}
+
+.input-text-wrapper {
+    height: 100%;
+}
+
+.btn-subscribe {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #3f3f3f;
+  font-family: "Roboto", monospace;
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  border-color: #3f3f3f;
 }
 
 /*--------------------Footer */
@@ -187,4 +239,7 @@ body {
 
 .footer-terms .copyright-message {
   padding-bottom: 60px;
+}
+
+@media screen and (max-width: 943px) {
 }
