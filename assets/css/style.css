@@ -141,11 +141,13 @@ body h5 {
 /*--------------------Home Video Container */
 
 .video-container {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .video-container .home-video iframe {
   width: 100%;
+  border: 3px solid #fafafa;
+  border-radius: 10px;
 }
 
 .video-container .home-video {
@@ -168,6 +170,8 @@ body h5 {
 .pathetic-image {
   width: 100%;
   overflow: hidden;
+  border: 3px solid #fafafa;
+  border-radius: 10px;
 }
 
 .pathetic-image-wrapper {
@@ -270,5 +274,20 @@ body h5 {
 @media screen and (min-width: 992px) {
   .video-overall-wrapper {
     margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .subscription-container {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .video-container {
+    margin-bottom: 10px;
+  }
+
+  .video-container .caption-text {
+    padding-top: 20px;
   }
 }
