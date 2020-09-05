@@ -116,9 +116,6 @@ body h5 {
   height: 80vh;
   position: relative;
   display: flex;
-}
-
-.hero-image {
   width: 100%;
 }
 
@@ -316,6 +313,24 @@ body h5 {
 @media screen and (min-width: 992px) {
   .video-overall-wrapper {
     margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-container {
+    padding: 0;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid #3f3f3f;
+  }
+
+  .hero-image {
+    height: 75vh;
+    background-attachment: scroll;
+  }
+
+  .hero-container {
+    padding-top: 115px;
   }
 }
 
