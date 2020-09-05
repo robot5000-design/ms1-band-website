@@ -126,19 +126,14 @@ body h5 {
   color: #fafafa;
   font-size: 20px;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 50px;
 }
 
 .quote-container {
-  padding: 30px 50px 40px;
   width: 100%;
 }
 
 /*--------------------Home Video Container */
-
-.video-container {
-  margin-bottom: 40px;
-}
 
 .video-container .home-video iframe {
   width: 100%;
@@ -149,18 +144,11 @@ body h5 {
 .video-container .home-video {
   margin: 0 auto;
   width: 90%;
-  margin-bottom: 60px;
-}
-
-.video-container .caption-text {
-  padding-bottom: 30px;
-  padding-top: 40px;
 }
 
 .video-container .caption-text i {
   font-size: 30px;
   color: #3f3f3f;
-  padding-right: 15px;
 }
 
 .pathetic-image {
@@ -172,7 +160,7 @@ body h5 {
 
 .pathetic-image-wrapper {
   width: 69.5%;
-  margin: 0 auto 50px;
+  margin: 0 auto;
 }
 
 .overlay-container {
@@ -214,19 +202,9 @@ body h5 {
 
 /*--------------------Subscription Container */
 
-.subscription-container {
-  padding-top: 20px;
-  padding-bottom: 50px;
-}
-
 .subscription-container h5 i {
   font-size: 25px;
   color: #3f3f3f;
-  padding-right: 15px;
-}
-
-.subscription-container h5 {
-  padding-bottom: 5px;
 }
 
 .form-elements-wrapper {
@@ -235,18 +213,15 @@ body h5 {
 }
 
 .subscribe-input {
-  width: 300px;
+  width: 100%;
   border: 2px solid #3f3f3f;
   border-radius: 10px;
   background-color: #fafafa;
 }
 
-.button-wrapper {
-  padding: 20px;
-}
-
 .input-text-wrapper {
   height: 100%;
+  width: 300px;
 }
 
 .btn-subscribe {
@@ -273,11 +248,6 @@ body h5 {
 .footer-container li a i {
   color: #fafafa;
   font-size: 28px;
-  padding: 20px 10px;
-}
-
-.social-links {
-  margin-top: 20px;
 }
 
 .footer-terms a,
@@ -333,7 +303,7 @@ body h5 {
     padding-top: 115px;
   }
 }
-
+/*
 @media screen and (max-width: 500px) {
   .subscription-container {
     padding-top: 10px;
@@ -351,4 +321,4 @@ body h5 {
   .spotify-overlay i {
     transform: scale(3);
   }
-}
+}*/ 
