@@ -46,6 +46,10 @@ body h5 {
   position: relative;
 }
 
+.nav-container {
+	border-bottom: 1px solid #3f3f3f;
+}
+
 .djshadow-icon {
   width: 200px;
 }
@@ -243,6 +247,7 @@ body h5 {
   background-color: #3f3f3f;
   min-height: 160px;
   text-align: center;
+  position: relative;
 }
 
 .footer-container li a i {
@@ -282,10 +287,10 @@ body h5 {
 
 /*--------------------Gallery */
 
+.shop-link-heading,
 .gallery-heading {
   font-family: "Roboto Mono", monospace;
   color: #fafafa;
-  font-size: 30px;
   font-weight: 500;
   line-height: 40px;
   text-align: center;
@@ -300,6 +305,7 @@ body h5 {
   align-items: center;
 }
 
+.shop-link-container img,
 .gallery-wrapper img {
   border: 3px solid #fafafa;
   border-radius: 10px;
@@ -353,6 +359,17 @@ body h5 {
   border-radius: 50%;
 }
 
+/*--------------------Merch */
+
+.shop-link-container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.shop-link-heading {
+  padding-bottom: 40px;
+}
+
 /*--------------------Media Queries */
 
 @media screen and (min-width: 992px) {
@@ -365,8 +382,13 @@ body h5 {
   .nav-container {
     padding: 0;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1;
-    border-bottom: 1px solid #3f3f3f;
+  }
+
+  .shop-link-container {
+    margin-top: 120px
   }
 
   .hero-image {
