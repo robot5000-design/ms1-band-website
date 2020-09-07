@@ -39,6 +39,10 @@ body h5 {
   font-weight: 700;
 }
 
+header i {
+  color: #3f3f3f;
+}
+
 /*--------------------Navbar */
 
 .navbar {
@@ -290,6 +294,7 @@ body h5 {
 
 /*--------------------Gallery */
 
+.album-heading,
 .shop-link-heading,
 .gallery-heading {
   font-family: "Roboto Mono", monospace;
@@ -300,7 +305,6 @@ body h5 {
 }
 
 .gallery-container {
-  padding-top: 20px;
   padding-bottom: 70px;
 }
 
@@ -373,18 +377,12 @@ body h5 {
   padding-bottom: 100px;
 }
 
-.shop-link-heading {
-  padding-bottom: 40px;
-}
-
 /*--------------------Media Queries */
 
 @media screen and (min-width: 992px) {
-  .video-overall-wrapper {
-    margin-left: 25px;
-  }
-  .image-heading-wrapper {
-    margin-right: 25px;
+  .video-container {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -410,12 +408,13 @@ body h5 {
     padding-top: 115px;
   }
 
+  .music-container,
   .gallery-container {
-    padding-top: 140px;
+    margin-top: 117px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
   /* .subscription-container {
     padding-top: 10px;
     padding-bottom: 30px;
@@ -435,5 +434,10 @@ body h5 {
 
   .album-name {
     margin-top: 16%;
+  }
+
+  .music-container {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
