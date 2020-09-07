@@ -210,6 +210,10 @@ body h5 {
   color: #3f3f3f;
 }
 
+.subscription-container h5 {
+  padding-right: 16px;
+}
+
 .form-elements-wrapper {
   justify-content: center;
   align-items: center;
@@ -373,10 +377,10 @@ body h5 {
 
 @media screen and (min-width: 992px) {
   .video-overall-wrapper {
-    margin-left: 30px;
+    margin-left: 25px;
   }
   .image-heading-wrapper {
-    margin-right: 30px;
+    margin-right: 25px;
   }
 }
 
