@@ -164,7 +164,8 @@ header i {
 }
 
 .subscription-container i,
-.video-container i {
+.video-container i,
+.shop-link-container i {
   font-size: 30px;
   color: #3f3f3f;
 }
