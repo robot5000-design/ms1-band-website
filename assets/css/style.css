@@ -132,11 +132,13 @@ header i {
 
 /*--------------------Home Main Text */
 
+.about-container p,
 .quote-container p {
   color: #fafafa;
   font-size: 20px;
   font-weight: 700;
   line-height: 50px;
+  text-align: justify;
 }
 
 .quote-container {
@@ -415,18 +417,26 @@ header i {
   position: absolute;
 }
 
-.tour-image-wrapper {
-  background-color: #3f3f3f;
-  font-weight: 700;
-}
-
 .tour-dates-wrapper {
+  overflow-wrap: normal;
   padding-top: 70px;
   padding-bottom: 100px;
+  font-weight: 700;
 }
 
 .tour-dates-wrapper .row {
   padding-bottom: 30px;
+}
+
+/*--------------------About */
+
+.about-container section p img {
+  width: 40%;
+  float: right;
+  margin-left: 40px;
+  margin-top: 15px;
+  border: 3px solid #fafafa;
+  border-radius: 10px;
 }
 
 /*--------------------Media Queries */
@@ -448,6 +458,7 @@ header i {
   }
 
   .tour-container,
+  .about-container,
   .shop-link-container {
     margin-top: 120px;
   }
@@ -468,8 +479,22 @@ header i {
 }
 
 @media screen and (max-width: 576px) {
+  .quote-container p,
+  .about-container p {
+    text-align: left;
+  }
+
+	.about-container section p img {
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
   .music-container {
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .tour-dates-wrapper {
+    font-size: 4vw;
   }
 }
