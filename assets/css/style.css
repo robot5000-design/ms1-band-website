@@ -239,6 +239,7 @@ header i {
   width: 300px;
 }
 
+.btn-404,
 .btn-subscribe {
   width: 62px;
   height: 62px;
@@ -427,6 +428,12 @@ header i {
 .page-item:first-child .page-link,
 .page-item:last-child .page-link {
   border-radius: 50%;
+}
+
+/*--------------------Custom 404 Page */
+
+.btn-404 {
+    width: 100px;
 }
 
 /*--------------------Media Queries */
