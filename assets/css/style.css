@@ -96,7 +96,7 @@ header i {
   position: absolute;
   animation-name: lights-on;
   animation-duration: 3s;
-  animation-delay: 0.5s;
+  animation-delay: 0.0s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
