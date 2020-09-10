@@ -24,6 +24,7 @@
       href="./assets/images/favicon.png"
     />
   </head>
+
   <body>
     <!-- Navigation Bar -->
     <div class="nav-container container-fluid">
@@ -56,10 +57,10 @@
             <li class="nav-item mr-2">
               <a href="./music.html" class="nav-link">Music</a>
             </li>
-            <li class="nav-item mr-2">
+            <li class="nav-item active mr-2">
               <a href="tour.html" class="nav-link">Tour</a>
             </li>
-            <li class="nav-item active mr-2">
+            <li class="nav-item mr-2">
               <a href="./gallery.html" class="nav-link">Gallery</a>
             </li>
             <li class="nav-item mr-2">
@@ -73,81 +74,126 @@
       </nav>
     </div>
     <main>
-      <div class="container-fluid gallery-container pt-5">
-        <header class="row mb-4">
-          <div class="col page-heading d-block d-lg-none">
-            <h1><i class="far fa-images pr-3" aria-hidden="true"></i>Gallery</h1>
+      <div class="container-fluid tour-container pt-5">
+        <header class="row page-heading pb-4">
+          <div class="col">
+            <h1>
+              <i class="fas fa-calendar-alt pr-3" aria-hidden="true"></i
+              >Upcoming Dates
+            </h1>
           </div>
         </header>
-        <div class="row gallery-wrapper">
-          <div class="col-md-6 col-xl-4 my-3">
-            <img
-              class="img-fluid"
-              src="./assets/images/gallery/shadow_13.JPG"
-              alt="shadow playing live"
-            />
+        <div class="row tour-image-wrapper">
+          <div class="col px-0">
+            <div class="tour-image">
+              <div class="tour-image-overlay"></div>
+              <div class="container tour-dates-wrapper">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="row">
+                      <div class="col-3">
+                        20 Feb 2020
+                      </div>
+                      <div class="col-4">
+                        Melkweg
+                      </div>
+                      <div class="col-5">
+                        Amsterdam, Netherlands
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">
+                        21 Feb 2020
+                      </div>
+                      <div class="col-4">
+                        Trianon
+                      </div>
+                      <div class="col-5">
+                        Paris, France
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">
+                        22 Feb 2020
+                      </div>
+                      <div class="col-4">
+                        La Madeleine
+                      </div>
+                      <div class="col-5">
+                        Brussels, Belgium
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">
+                        24 Feb 2020
+                      </div>
+                      <div class="col-4">
+                        Metropol
+                      </div>
+                      <div class="col-5">
+                        Berlin, Germany
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">
+                        27 Feb 2020
+                      </div>
+                      <div class="col-4">
+                        SWG3 Studio Warehouse
+                      </div>
+                      <div class="col-5">
+                        Glasgow, United Kingdom
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">
+                        28 Feb 2020
+                      </div>
+                      <div class="col-4">
+                        Albert Hall
+                      </div>
+                      <div class="col-5">
+                        Manchester, United Kingdom
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">
+                        29 Feb 2020
+                      </div>
+                      <div class="col-4">
+                        O2 Academy Brixton
+                      </div>
+                      <div class="col-5">
+                        London, United Kingdom
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">
+                        04 Jun 2020
+                      </div>
+                      <div class="col-4">
+                        Parc del Fòrum
+                      </div>
+                      <div class="col-5">
+                        Barcelona, Spain
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">
+                        31 Jul 2020
+                      </div>
+                      <div class="col-4">
+                        Ogden Amphitheater
+                      </div>
+                      <div class="col-5">
+                        Ogden, UT, USA
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6 col-xl-4 my-3">
-            <img
-              class="img-fluid"
-              src="./assets/images/gallery/shadow_14.JPG"
-              alt="shadow on the decks"
-            />
-          </div>
-          <div class="col-md-6 col-xl-4 my-3">
-            <img
-              class="img-fluid"
-              src="./assets/images/gallery/shadow_15.JPG"
-              alt="endtroducing cover in lego effect"
-            />
-          </div>
-          <div class="col-md-6 col-xl-4 my-3">
-            <img
-              class="img-fluid"
-              src="./assets/images/gallery/shadow_16.JPG"
-              alt="shadow in vinyl store"
-            />
-          </div>
-          <div class="col-md-6 col-xl-4 my-3">
-            <img
-              class="img-fluid"
-              src="./assets/images/gallery/shadow_17.JPG"
-              alt="the mountain will fall album covers"
-            />
-          </div>
-          <div class="col-md-6 col-xl-4 my-3">
-            <img
-              class="img-fluid"
-              src="./assets/images/gallery/shadow_18.JPG"
-              alt="endtroducing cover close-up"
-            />
-          </div>
-        </div>
-        <div class="row gallery-pagination">
-          <nav aria-label="gallery-navigation">
-            <ul class="pagination">
-              <li class="page-item">
-                <a class="page-link" href="./gallery.html">
-                  <i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i>
-                  <span class="sr-only">previous page</span></a
-                >
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="./gallery.html">1</a>
-              </li>
-              <li class="page-item active" aria-current="page">
-                <span class="page-link"
-                  >2
-                  <span class="sr-only">gallery page 2</span>
-                </span>
-              </li>
-              <li class="page-item disabled">
-                <span class="page-link"
-                  ><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i
-                ></span>
-              </li>
-            </ul>
-          </nav>
         </div>
       </div>
     </main>

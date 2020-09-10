@@ -1,31 +1,14 @@
 /*--------------------General Rule */
-/*
-* {
- background: #000 !important;
- color: #0f0 !important;
- outline: solid #f00 1px !important;
-} */
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@400;500;700&display=swap");
 
-/*
-*,
-*::before,
-*::after {
+* {
   padding: 0;
   margin: 0;
   border: 0;
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-p {
-  margin: 0;
-}
-*/
 body {
   background-color: #ac9740;
   color: #fafafa;
@@ -55,7 +38,7 @@ header i {
 }
 
 .nav-container {
-  border-bottom: 1px solid #3f3f3f;
+  border-bottom: 1px solid #3f3f3f30;
 }
 
 .djshadow-icon {
@@ -132,11 +115,13 @@ header i {
 
 /*--------------------Home Main Text */
 
+.about-container p,
 .quote-container p {
   color: #fafafa;
   font-size: 20px;
   font-weight: 700;
   line-height: 50px;
+  text-align: justify;
 }
 
 .quote-container {
@@ -164,7 +149,8 @@ header i {
 }
 
 .subscription-container i,
-.video-container i {
+.video-container i,
+.shop-link-container i {
   font-size: 30px;
   color: #3f3f3f;
 }
@@ -310,11 +296,67 @@ header i {
   padding-bottom: 50px;
 }
 
+/*--------------------Merch */
+
+.shop-link-container {
+  padding: 50px 30px 100px;
+}
+
+/*--------------------Tour */
+
+.tour-container .tour-image {
+  background: url(../images/shadow_live.jpg) 70% center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  background-color: #3f3f3f;
+}
+
+.tour-image-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.tour-dates-wrapper {
+  overflow-wrap: normal;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  font-weight: 700;
+}
+
+.tour-dates-wrapper .row {
+  padding-bottom: 30px;
+}
+
+/*--------------------About */
+
+.about-container .shadow-vinyl-image {
+  width: 33%;  
+  margin: 15px 0 10px 40px;
+  border: 3px solid #fafafa;
+  border-radius: 10px;
+  float: right;
+}
+
+.about-container .shadow-sitting-image {
+  width: 33%;
+  margin: 20px 40px 10px 0;
+  border: 3px solid #fafafa;
+  border-radius: 10px;
+  float: left;
+}
+
 /*--------------------Gallery */
 
-.music-heading,
-.shop-link-heading,
-.gallery-heading {
+.page-heading {
   font-family: "Bebas Neue", sans-serif;
   color: #fafafa;
   font-size: 40px;
@@ -387,12 +429,6 @@ header i {
   border-radius: 50%;
 }
 
-/*--------------------Merch */
-
-.shop-link-container {
-  padding: 50px 30px 100px;
-}
-
 /*--------------------Media Queries */
 
 @media screen and (min-width: 992px) {
@@ -411,6 +447,8 @@ header i {
     z-index: 1;
   }
 
+  .tour-container,
+  .about-container,
   .shop-link-container {
     margin-top: 120px;
   }
@@ -430,9 +468,27 @@ header i {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .about-container .col img {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 @media screen and (max-width: 576px) {
+  .quote-container p,
+  .about-container p {
+    text-align: left;
+  }
+
   .music-container {
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .tour-dates-wrapper {
+    font-size: 4vw;
   }
 }
