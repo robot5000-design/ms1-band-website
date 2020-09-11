@@ -471,6 +471,7 @@ header i {
 
 .btn-404 {
     width: 100px;
+    padding-top: 12px;
 }
 
 /*--------------------Media Queries */
