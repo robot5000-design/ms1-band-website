@@ -337,12 +337,12 @@ header i {
 }
 
 .contact-heading {
-	font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace;
   color: #fafafa;
   font-size: 100%;
   font-weight: 500;
   text-align: center;
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .btn-contact {
@@ -355,29 +355,29 @@ header i {
   font-weight: 500;
   text-align: center;
   border-color: #3f3f3f;
-	margin: 10px auto 50px;
+  margin: 10px auto 50px;
 }
 
 .btn-contact:hover {
-	background-color: #fafafa;
-	border-color: #fafafa;
-	color: #3f3f3f;
+  background-color: #fafafa;
+  border-color: #fafafa;
+  color: #3f3f3f;
 }
 
 .modal-title {
-	font-family: "Bebas Neue", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   color: #3f3f3f;
   font-size: 30px;
 }
 
 .contact-modal-form {
-	font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*--------------------About */
 
 .about-container .shadow-vinyl-image {
-  width: 33%;  
+  width: 33%;
   margin: 15px 0 10px 40px;
   border: 3px solid #fafafa;
   border-radius: 10px;
@@ -470,8 +470,8 @@ header i {
 /*--------------------Custom 404 Page */
 
 .btn-404 {
-    width: 100px;
-    padding-top: 12px;
+  width: 100px;
+  padding-top: 12px;
 }
 
 /*--------------------Media Queries */
