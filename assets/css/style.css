@@ -96,7 +96,6 @@ header i {
   position: absolute;
   animation-name: lights-on;
   animation-duration: 3s;
-  animation-delay: 0.0s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
@@ -335,6 +334,45 @@ header i {
 
 .tour-dates-wrapper .row {
   padding-bottom: 30px;
+}
+
+.contact-heading {
+	font-family: "Roboto Mono", monospace;
+  color: #fafafa;
+  font-size: 100%;
+  font-weight: 500;
+  text-align: center;
+	margin-top: 50px;
+}
+
+.btn-contact {
+  width: 50%;
+  height: ;
+  border-radius: 10px;
+  background-color: #3f3f3f;
+  font-family: "Roboto Mono", monospace;
+  color: #fafafa;
+  font-size: 100%;
+  font-weight: 500;
+  text-align: center;
+  border-color: #3f3f3f;
+	margin: 10px auto 50px;
+}
+
+.btn-contact:hover {
+	background-color: #fafafa;
+	border-color: #fafafa;
+	color: #3f3f3f;
+}
+
+.modal-title {
+	font-family: "Bebas Neue", sans-serif;
+  color: #3f3f3f;
+  font-size: 30px;
+}
+
+.contact-modal-form {
+	font-family: "Roboto Mono", monospace;
 }
 
 /*--------------------About */
