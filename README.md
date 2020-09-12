@@ -2,7 +2,7 @@
 
 ## 1st Milestone Project
 
-## User Centric Frontend Development
+## User Centric Front-End Development
 
 ## Code Institute 2020
 
