@@ -134,6 +134,8 @@ and basic theme. The Figma mock-up can be viewed [here](./documentation/images-f
 
 [3]: ./documentation/images-for-readme/color-choices.jpg "Colour Choices"
 
+---
+
 ### **Features**
 
 Common to all pages, a nav element with navigation links at the top of the page. This is fixed
@@ -185,4 +187,49 @@ More detailed information on features of each page:
 
  Link to the official DJ Shadow online Shop.
 
+*Other potential features which could be implemented in future:*
+* Have an online shop built into the site.
+* A news page rather than subscriber news.
+* Embedded Instagram rather than current Gallery page.
 
+These would allow the website to be constantly updating which would keep users 
+coming back.
+
+---
+
+### **Technologies Used:**
+*Languages:*
+* HTML - Base structural language.
+* CSS - For styling.
+
+*Libraries:*
+* Bootstrap 4.5.2 - Used to help with grid layout and screen size responsiveness.
+* Javascript, Popper.js, and jQuery as part of Bootstrap.
+* Font Awesome for icons.
+* Google Fonts for Bebas Neue and Roboto Mono fonts.
+
+*Hosting and Version Control:*
+* Github - Holding repository and hosting site.
+* Git - Version control.
+
+*Others:*
+* Balsamiq - For wireframes.
+* Figma - For partial colour mock-up of home page.
+
+---
+### **Testing:**
+
+
+
+---
+### **Deployment:**
+
+
+
+---
+### **Credits:**
+
+
+
+
+---
