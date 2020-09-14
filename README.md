@@ -14,26 +14,81 @@ subject for this purpose. The design was based on user experience priciples and 
 responsive mobile first method was employed. The purpose of this wesite is to provide
 users with:
 
-* useful and appealing information about the artist
-* links to samples of his music (videos/spotify)
-* links to his social media
-* upcoming touring dates & ability to contact his management
-* photos
-* merchandising
-* newsletter sign-up
+- useful and appealing information about the artist
+- links to samples of his music (videos/spotify)
+- links to his social media
+- upcoming touring dates & ability to contact his management
+- photos
+- merchandising
+- newsletter sign-up
 
 ---
-### See the image below for an example of the responsiveness of the site. 
+
+### See the image below for an example of the responsiveness of the site.
+
 Click the image to be taken to a live demo of the site:
 
 [![homepage][1]][2]
 
-[1]:  ./documentation/images-for-readme/am-i-responsive.JPG
-[2]:  https://robot5000-design.github.io/project_one/index.html "Live Site"
+[1]: ./documentation/images-for-readme/am-i-responsive.JPG
+[2]: https://robot5000-design.github.io/project_one/index.html "Live Site"
 
 ---
-### UX Design
+
+### **UX Design**
 
 #### Strategy
+
+_User Stories:_
+
+There are 3 types of users of the site: the artist(site owner), the fans or the organiser of an event.
+
+As the site owner:
+
+- I want to present myself and my music in a positive way and in a style that fits with my image and my music.
+- I want fans to be drawn in by the landing page.
+- I want fans to know when and where I am playing live.
+- I want fans to be able to listen to samples of my music and be directed to spotify where I make money from their repeat listens.
+- I want my new album to be promoted but to use my famous material to promote the site.
+- I want fans to be able to purchase merchandise.
+- I want fans to be able to keep up to date with what is going on in my world through links to my social media and either a news feed or newsletter sign-up.
+- I want a contact form for event organisers to be able to get in touch with my management for potential gigs.
+
+As a fan:
+
+- I want to be able to get links to new and old music and videos.
+- I want to be able to purchase merchandise.
+- I want to be able to stay up to date with news and link to social media sites.
+- I want to be able to see where the artist is touring next or if they might be playing local to me soon.
+- I want to be able to quickly find bio information about the artist.
+- I want to see photos of the artist.
+
+As an event organiser:
+
+- I want to see what the artists upcoming touring schedule looks like and to have the means to contact the artists management.
+
+The main goals of this site, arising from the user stories and research of other musician sites are:
+
+- to have useful and appealing information about the artist.
+- to have links to samples of his music (videos/spotify).
+- to have links to his social media.
+- to have upcoming touring dates & ability to contact his management
+- to have a selection of photos.
+- to have merchandising.
+- to have a news page or a newsletter subscriber sign-up.
+
+#### Scope
+
+Based on the results of the Strategy research the features to be included are:
+
+* Landing page with iconic endtroducing image. 
+* Gallery with photos from official Instagram.
+* Music page with links to all albums on spotify. 
+* Embedded youtube videos of some well known music pieces.
+* A newsletter subscription form.
+* A bio page. 
+* An upcoming gigs page with the ability to contact management.
+* All features are viable except an online shop at this moment and a newsletter sub is more suitable to 
+this project rather than a news feed page. A link to an official artist online shop can be provided.
 
 
