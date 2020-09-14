@@ -81,14 +81,80 @@ The main goals of this site, arising from the user stories and research of other
 
 Based on the results of the Strategy research the features to be included are:
 
-* Landing page with iconic endtroducing image. 
-* Gallery with photos from official Instagram.
-* Music page with links to all albums on spotify. 
-* Embedded youtube videos of some well known music pieces.
-* A newsletter subscription form.
-* A bio page. 
-* An upcoming gigs page with the ability to contact management.
-* All features are viable except an online shop at this moment and a newsletter sub is more suitable to 
-this project rather than a news feed page. A link to an official artist online shop can be provided.
+- Landing page with iconic endtroducing image.
+- Gallery with photos from official Instagram.
+- Music page with links to all albums on spotify.
+- Embedded youtube videos of some well known music pieces.
+- A newsletter subscription form.
+- A bio page.
+- An upcoming gigs page with the ability to contact management.
+- All features are viable except an online shop at this moment and a newsletter sub is more suitable to
+  this project rather than a news feed page. A link to an official artist online shop can be provided.
+
+#### Structure
+
+- A simple tree and branch layout with few pages all accessible from the navigation bar at
+  the top of the page where the user expects.
+- Custom 404 page, so in the case of a broken external link a button is provided
+  for the user to return to safety.
+- Tree structure implemented with navbar for mobile users and linear path on gallery page
+  if necessary to reduce the number of photos on screen all at once.
+
+#### Skeleton
+
+Wireframes made in Balsamiq Wireframes were used for basic layout. These can be viewed here:
+
+[Landing Page All Sizes](./documentation/wireframes/landing_page.png)
+
+[Music Page All Sizes](./documentation/wireframes/music_page.png)
+
+[Tour Page All Sizes](./documentation/wireframes/live_page.png)
+
+[Gallery Page All Sizes](./documentation/wireframes/gallery_page.png)
+
+[About Page All Sizes](./documentation/wireframes/about_page.png)
+
+[Merch Page All Sizes](./documentation/wireframes/merch_page.png)
+
+#### Surface
+
+Colours were chosen based on the 20th aniversary edition of DJ Shadow's seminal album, Endtroducing.
+This also provided the main logo/icon for the nav element.
+
+The main background colour #9F8A38 was darkened slightly to provide more contrast with the text.
+This allowed the site to score 100 in the Accessibility category on Chrome Development Tools Lighthouse.
+
+The fonts chosen were Bebas Neue for headings (bold eye-catching font) and Roboto Mono for everything else.
+Text colour is an off-white #FAFAFA contrasted with #3F3F3F for icons and footer.
+
+[Figma](https://www.figma.com/) was used to check colours
+and basic theme. The Figma mock-up can be viewed [here](./documentation/images-for-readme/figma-mock-up.jpg).
+
+![ColourChoices][3]
+
+[3]: ./documentation/images-for-readme/color-choices.jpg "Colour Choices"
+
+### **Features**
+
+All pages have a nav element with navigation links at the top of the page. This is fixed
+on mobile where the smaller screen results in more scrolling.
+
+*1. Home:*
+
+ Landing page with large hi-res eye-catching widescreen version of the famous photo
+ used on the original Endtroducing album cover. An opaque overlay gradually lights
+ up from dark when you arrive on the page. This gives the impression of the lights being
+ switched on in the music store as you look through a window.
+
+ Classic embedded video from Endtroducing in addition to an image of the new album
+ with an opaque overlay on hover which has a link to the album on spotify.
+
+ A form to sign-up for a subscriber newsletter.
 
 
+• Music: Selection of all albums linked to spotify when hovered over. Selection of embedded youtube videos to draw in new listeners.
+• Tour: List of upcoming touring dates and contact form to contact management.
+• Gallery: Page of photos from official Instagram, laid out in a slightly unstructured poster board format. Use pagination to spread photos over acouple of pages if necessary.
+• About: Some bio info and photos.
+• Merch: Link to official DJ Shadow Shop
+• Footer: Links to social media, terms(doesn’t exist), copyright, privacy(doesn’t exist).
