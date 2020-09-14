@@ -34,8 +34,22 @@ Click the image to be taken to a live demo of the site:
 [2]: https://robot5000-design.github.io/project_one/index.html "Live Site"
 
 ---
+### **Contents:**
+[1. UX Design](https://github.com/robot5000-design/project_one/tree/readme#ux-design)
 
-### **UX Design**
+[2. Features](https://github.com/robot5000-design/project_one/tree/readme#features)
+
+[3. Technologies Used](https://github.com/robot5000-design/project_one/tree/readme#technologies-used)
+
+[4. Testing](https://github.com/robot5000-design/project_one/tree/readme#testing)
+
+[5. Deployment](https://github.com/robot5000-design/project_one/tree/readme#deployment)
+
+[6. Credits](https://github.com/robot5000-design/project_one/tree/readme#credits)
+
+---
+
+### **1. UX Design**
 
 #### Strategy
 
@@ -136,7 +150,7 @@ and basic theme. The Figma mock-up can be viewed [here](./documentation/images-f
 
 ---
 
-### **Features**
+### **2. Features**
 
 Common to all pages, a nav element with navigation links at the top of the page. This is fixed
 on mobile where the smaller screen results in more scrolling. A navbar is also utilised 
@@ -197,10 +211,11 @@ coming back.
 
 ---
 
-### **Technologies Used:**
-*Languages:*
+### **3. Technologies Used:**
+*IDE and Languages:*
+* Gitpod - IDE used.
 * HTML - Base structural language.
-* CSS - For styling.
+* CSS - Language used for styling.
 
 *Libraries:*
 * Bootstrap 4.5.2 - Used to help with grid layout and screen size responsiveness.
@@ -215,20 +230,70 @@ coming back.
 *Others:*
 * Balsamiq - For wireframes.
 * Figma - For partial colour mock-up of home page.
+* Microsoft Paint 3D - For colourmatch.
+* Browserstack - To check base compatibility.
 
 ---
-### **Testing:**
+### **4. Testing:**
+
+The first part of testing was to confirm that all user stories requirements have been met.
+Without bringing up each individual one here again it can be confirmed that all have been
+fulfilled.
+
 
 
 
 ---
-### **Deployment:**
+### **5. Deployment:**
 
+*To Deploy on Github Pages:*
+
+1. On Github, navigate to Settings in the Github repository.
+2. Scroll down to the Github Pages section.
+3. Under Source, select the Master branch.
+4. Press Save.
+5. After it saves, scroll back down to the Github Pages section and the URL for 
+where the site is published will now be available.
+
+*For this website to be run locally it will need to be cloned:*
+
+* To Clone using Command Line:
+
+    1. On GitHub, navigate to the main page of the repository.
+    2. Above the list of files, click Code.
+    3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the URL. 
+    To clone the repository using an SSH key, including a certificate issued by your organization's 
+    SSH certificate authority, click Use SSH, then copy the URL.
+    4. Open Git Bash.
+    5. Change the current working directory to the location where you want the cloned directory.
+    6. Type git clone, and then paste the URL you copied earlier: $ git clone url-copied-earlier
+    7. Press Enter to create your local clone.
+
+* To Clone using Github Desktop:
+
+    1. On GitHub, navigate to the main page of the repository.
+    2. Above the list of files, click Code.
+    3. Click "Open with GitHub Desktop" to clone and open the repository with GitHub Desktop.
+    4. Follow the prompts in GitHub Desktop to complete the clone.
 
 
 ---
-### **Credits:**
+### **6. Credits:**
 
+All images in the gallery are taken from the official DJ Shadow Instagram.
+
+All embedded video are from the official DJ Shadow YouTube channel.
+
+All album covers are taken from https://www.discogs.com/artist/4478-DJ-Shadow
+
+Paragraph on the Home page is taken from the AllMusic review of the album Endtroducing and can be found
+[here](https://www.allmusic.com/album/endtroducing-mw0000082992).
+
+Paragraph on the About page is taken from the AllMusic DJ Shadow Biography page and can be found 
+[here](https://www.allmusic.com/artist/dj-shadow-mn0000949820/biography).
+
+Information on deployment was taken from Github Documentation 
+[here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 
 
