@@ -136,8 +136,18 @@ and basic theme. The Figma mock-up can be viewed [here](./documentation/images-f
 
 ### **Features**
 
-All pages have a nav element with navigation links at the top of the page. This is fixed
-on mobile where the smaller screen results in more scrolling.
+Common to all pages, a nav element with navigation links at the top of the page. This is fixed
+on mobile where the smaller screen results in more scrolling. A navbar is also utilised 
+on smaller screen sizes. Icons have been used to completment all headings.
+
+In addition all pages have a constant footer which contains links to social media, terms(doesn't exist)
+and privacy(doesn't exist). These links provide interactive feedback when hovered over,
+they change colour.
+
+Customised Bootstrap was used to help with the responsiveness and layout of the site.
+In addition targeted media queries were used to assist with this.
+
+More detailed information on features of each page:
 
 *1. Home:*
 
@@ -146,15 +156,33 @@ on mobile where the smaller screen results in more scrolling.
  up from dark when you arrive on the page. This gives the impression of the lights being
  switched on in the music store as you look through a window.
 
- Classic embedded video from Endtroducing in addition to an image of the new album
- with an opaque overlay on hover which has a link to the album on spotify.
+ Embedded classic video from Endtroducing in addition to an image of the new album
+ with an opaque overlay on hover which has a link to the album on Spotify.
 
  A form to sign-up for a subscriber newsletter.
 
 
-• Music: Selection of all albums linked to spotify when hovered over. Selection of embedded youtube videos to draw in new listeners.
-• Tour: List of upcoming touring dates and contact form to contact management.
-• Gallery: Page of photos from official Instagram, laid out in a slightly unstructured poster board format. Use pagination to spread photos over acouple of pages if necessary.
-• About: Some bio info and photos.
-• Merch: Link to official DJ Shadow Shop
-• Footer: Links to social media, terms(doesn’t exist), copyright, privacy(doesn’t exist).
+*2. Music:*
+ 
+ Selection of all album covers that when hovered over the opaque overlay contains 
+ information on the album and a link to the album on Spotify. Selection of embedded 
+ youtube videos to draw in new listeners.
+
+*3. Tour:*
+
+ List of upcoming touring dates and contact form modal to contact management.
+
+*3. Gallery:*
+
+ Page of photos from the official Instagram, laid out in an ad-hoc poster board 
+ format. Linear pagination used to spread photos over two pages as necessary.
+
+*4. About:*
+
+ Some bio info about the artist with appropriate photos.
+
+*5. Merch:*
+
+ Link to the official DJ Shadow online Shop.
+
+
