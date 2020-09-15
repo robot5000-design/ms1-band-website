@@ -253,18 +253,32 @@ For the site owner:
 
   _This has been achieved by the overall style, font, colours and images used on the site._
 
+For the site owner:
+
 - I want fans to be drawn in by the landing page.
 
   _This has been achieved by using the iconic photo from the Endtroducing Album cover and lighting it
   up gradually._
   ![landing-page](./documentation/images-for-readme/landing-page.jpg)
 
+For the site owner:
+
 - I want fans to know when and where I am playing live.
+
+For a fan:
+
+- I want to be able to see where the artist is touring next or if they might be playing local to me soon.
 
   _Achieved with the Tour page_
   ![tour-dates](./documentation/images-for-readme/tour-dates.jpg)
 
+For the site owner:
+
 - I want fans to be able to listen to samples of my music and be directed to spotify where I make money from their repeat listens.
+
+For a fan:
+
+- I want to be able to get links to new and old music and videos.
 
   _Achieved with the Music page having sample music videos and links to all
   albums on Spotify._
@@ -278,13 +292,25 @@ For the site owner:
   video along side a link to the latest album on Spotify._
   ![landing-page-links](./documentation/images-for-readme/landing-page-links.jpg)
 
+For the site owner:
+
 - I want fans to be able to purchase merchandise.
+
+For a fan:
+
+- I want to be able to purchase merchandise.
 
   _Achieved by providing a link to the official online store._
   ![online-shop](./documentation/images-for-readme/online-shop.jpg)
 
+For the site owner:
+
 - I want fans to be able to keep up to date with what is going on in my world
   through links to my social media and either a news feed or newsletter sign-up.
+
+For a fan:
+
+- I want to be able to stay up to date with news and link to social media sites.
 
   _Achieved by providing a subscriber newsletter sign-up form and links to social
   media in footer. It should be noted that this form is non-functioning with
@@ -292,7 +318,14 @@ For the site owner:
   ![subscribe](./documentation/images-for-readme/subscribe-news.jpg)
   ![footer](./documentation/images-for-readme/footer.jpg)
 
+For the site owner:
+
 - I want a contact form for event organisers to be able to get in touch with my management for potential gigs.
+
+For an event organiser:
+
+- I want to see what the artists upcoming touring schedule looks like and to have
+  the means to contact the artists management.
 
   _Achieved by providing a modal contact form for event organisers at the bottom of
   the Tour page. It should again be noted that this form is non-functioning with regards to sending data, as that is beyond
@@ -301,16 +334,17 @@ For the site owner:
 
 For a fan:
 
-- I want to be able to get links to new and old music and videos.
-- I want to be able to purchase merchandise.
-- I want to be able to stay up to date with news and link to social media sites.
-- I want to be able to see where the artist is touring next or if they might be playing local to me soon.
-- I want to be able to quickly find bio information about the artist.
+- I want to be able to quickly find biography information about the artist.
+
+  _Achieved by the About page having a bio information with photos._
+  ![biography](./documentation/images-for-readme/bio-page.jpg)
+
+For a fan:
+
 - I want to see photos of the artist.
 
-For an event organiser:
-
-- I want to see what the artists upcoming touring schedule looks like and to have the means to contact the artists management.
+  _Achieved by the Gallery page having up-to-date photos from artists Instagram._
+  ![gallery](./documentation/images-for-readme/images-gallery.jpg)
 
 ---
 
