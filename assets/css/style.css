@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #ac9740;
+  background-color: #9f8a38;
   color: #fafafa;
   margin: 0;
   padding: 0;
@@ -33,7 +33,7 @@ body p {
 /*--------------------Navbar */
 
 .navbar {
-  background-color: #ac9740;
+  background-color: #9f8a38;
   position: relative;
 }
 
@@ -285,7 +285,7 @@ body p {
 
 .footer-terms a:hover,
 .footer-container li a i:hover {
-  color: #ac9740;
+  color: #9f8a38;
 }
 
 .footer-terms .footer-terms-item {
@@ -433,8 +433,8 @@ body p {
 
 .page-item.disabled .page-link {
   color: #fafafa;
-  background-color: #ac9740;
-  border-color: #ac9740;
+  background-color: #9f8a38;
+  border-color: #9f8a38;
 }
 
 .page-item.active .page-link {
@@ -447,14 +447,14 @@ body p {
 
 .page-link {
   color: #fafafa;
-  background-color: #ac9740;
-  border-color: #ac9740;
+  background-color: #9f8a38;
+  border-color: #9f8a38;
 }
 
 .page-link:hover {
   color: #3f3f3f;
-  background-color: #ac9740;
-  border-color: #ac9740;
+  background-color: #9f8a38;
+  border-color: #9f8a38;
   border-radius: 50%;
 }
 
