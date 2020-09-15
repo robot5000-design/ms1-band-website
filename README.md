@@ -396,6 +396,8 @@ Javascript, but that is beyond the scope of this project right now.
 
 ### **5. Deployment**
 
+The site has been deployed on Github pages [here](https://robot5000-design.github.io/project_one/index.html).
+
 _To Deploy on Github Pages:_
 
 1. On Github, navigate to Settings in the Github repository.
@@ -444,5 +446,7 @@ Paragraph on the About page is taken from the AllMusic DJ Shadow Biography page 
 
 Information on deployment was taken from Github Documentation
 [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+
 
 ---
