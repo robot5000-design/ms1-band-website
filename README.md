@@ -37,17 +37,17 @@ Click the image to be taken to a live demo of the site:
 
 ### **Contents:**
 
-[1. UX Design](https://github.com/robot5000-design/project_one/tree/readme#ux-design)
+[1. UX Design](#1.-ux-design)
 
-[2. Features](https://github.com/robot5000-design/project_one/tree/readme#features)
+[2. Features](#2.-features)
 
-[3. Technologies Used](https://github.com/robot5000-design/project_one/tree/readme#technologies-used)
+[3. Technologies Used](#3.-technologies-used)
 
-[4. Testing](https://github.com/robot5000-design/project_one/tree/readme#testing)
+[4. Testing](#4a.-testing-part-1)
 
-[5. Deployment](https://github.com/robot5000-design/project_one/tree/readme#deployment)
+[5. Deployment](#5.-deployment)
 
-[6. Credits](https://github.com/robot5000-design/project_one/tree/readme#credits)
+[6. Credits](#6.-credits)
 
 ---
 
@@ -214,7 +214,7 @@ coming back.
 
 ---
 
-### **3. Technologies Used:**
+### **3. Technologies Used**
 
 _IDE and Languages:_
 
@@ -243,7 +243,7 @@ _Others:_
 
 ---
 
-### **4a. Testing Part 1:**
+### **4a. Testing Part 1**
 
 The first part of testing was to confirm that all user stories requirements have been met.
 
@@ -347,9 +347,11 @@ For a fan:
   ![gallery](./documentation/images-for-readme/images-gallery.jpg)
 
 ---
-### **4b. Testing Part 2:**
+
+### **4b. Testing Part 2**
 
 The site has been tested on the following browsers:
+
 - Internet Explorer
 - Firefox
 - Google Chrome
@@ -360,7 +362,7 @@ The site has been tested on the following browsers:
 
 The site has been tested on both mobile and desktop for responsiveness.
 In addition Chrome Development Tools and BrowserStack allowed for a broader
-range of device and browser testing. 
+range of device and browser testing.
 
 Any issues have been cataloged in the Issues section on Github and closed
 when a sufficient solution was reached.
@@ -369,23 +371,24 @@ All HTML and CSS files have been passed through the w3c validation service here
 https://validator.w3.org/
 
 The only issue of significance raised was issue #10. The 404.html code had an anchor
-element wrapped in a button. The solution was to use the anchor element only but styled 
+element wrapped in a button. The solution was to use the anchor element only but styled
 as a button.
 
-Chrome Dev Tools suggested that for security reasons that rel="noreferrer" should be 
-added to all external links.
+Chrome Dev Tools suggested that for security reasons that rel="noreferrer" should be
+added to all external links. It indicates that no referrer information is to be leaked
+when following the link and also implies the noopener keyword behavior under the same
+conditions (taken from HTML Living Standard website).
 
-The other significant issue in testing was on mobile devices where the address bar 
-appears and disappears as the user scrolls, was causing a scaling issue where the fixed 
-background image set to 100vh would jump in scale slightly. To overcome this problem 
+The other significant issue in testing was on mobile devices where the address bar
+appears and disappears as the user scrolls, was causing a scaling issue where the fixed
+background image set to 100vh would jump in scale slightly. To overcome this problem
 on Chrome the background hero image on the landing page was allowed to scroll on mobile
 devices only. From research, this appears to be a known issue which can be solved with
-Javascript, but that is beyond the scope of this project right now. 
-  
+Javascript, but that is beyond the scope of this project right now.
 
 ---
 
-### **5. Deployment:**
+### **5. Deployment**
 
 _To Deploy on Github Pages:_
 
@@ -419,7 +422,7 @@ _For this website to be run locally it will need to be cloned:_
 
 ---
 
-### **6. Credits:**
+### **6. Credits**
 
 All images in the gallery are taken from the official DJ Shadow Instagram.
 
