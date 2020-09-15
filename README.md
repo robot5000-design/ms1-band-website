@@ -374,10 +374,16 @@ The only issue of significance raised was issue #10. The 404.html code had an an
 element wrapped in a button. The solution was to use the anchor element only but styled
 as a button.
 
-Chrome Dev Tools suggested that for security reasons that rel="noreferrer" should be
+Chrome Dev Tools Lighthouse suggested that for security reasons that rel="noreferrer" should be
 added to all external links. It indicates that no referrer information is to be leaked
 when following the link and also implies the noopener keyword behavior under the same
 conditions (taken from HTML Living Standard website).
+
+Chrome Dev Tools Lighthouse also suggested that the embedded video iframe elements should have
+a title for screen readers. This has been added.
+
+The final suggestion made by Lighthouse was to remove the user-scalable="no" from the meta element.
+Again for accessability reasons. This has been removed. 
 
 The other significant issue in testing was on mobile devices where the address bar
 appears and disappears as the user scrolls, was causing a scaling issue where the fixed
