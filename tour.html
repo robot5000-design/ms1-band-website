@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>DJ Shadow Fansite</title>
 	<script src="https://kit.fontawesome.com/b92bca4325.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -18,46 +18,46 @@
 		<nav class="navbar navbar-dark navbar-expand-lg">
 			<a class="navbar-brand" href="./index.html">
 				<img
-            src="./assets/images/endtroducing_logo.png"
-            class="djshadow-icon d-inline-block align-top"
-            alt="dj shadow icon"
-            loading="lazy"
-          />
-        </a>
-				<button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+					src="./assets/images/endtroducing_logo.png"
+					class="djshadow-icon d-inline-block align-top"
+					alt="dj shadow icon"
+					loading="lazy"
+				/>
+			</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
           <!-- 3-bar icon -->
-          <span class="navbar-toggler-icon"></span>
-        </button>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav">
-						<li class="nav-item mr-2">
-							<a href="./index.html" class="nav-link">Home</a>
-						</li>
-						<li class="nav-item mr-2">
-							<a href="./music.html" class="nav-link">Music</a>
-						</li>
-						<li class="nav-item active mr-2">
-							<a href="tour.html" class="nav-link">Tour</a>
-						</li>
-						<li class="nav-item mr-2">
-							<a href="./gallery.html" class="nav-link">Gallery</a>
-						</li>
-						<li class="nav-item mr-2">
-							<a href="./about.html" class="nav-link">About</a>
-						</li>
-						<li class="nav-item mr-2">
-							<a href="./merch.html" class="nav-link">Merch</a>
-						</li>
-					</ul>
-				</div>
+      	<span class="navbar-toggler-icon"></span>
+      </button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item mr-2">
+						<a href="./index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a href="./music.html" class="nav-link">Music</a>
+					</li>
+					<li class="nav-item active mr-2">
+						<a href="tour.html" class="nav-link">Tour</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a href="./gallery.html" class="nav-link">Gallery</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a href="./about.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a href="./merch.html" class="nav-link">Merch</a>
+					</li>
+				</ul>
+			</div>
 		</nav>
 	</div>
 	<main>
@@ -184,41 +184,44 @@
 			<div class="row">
 				<div class="col contact-heading">
 					<p>
-						Contact DJ Shadow's management if you would like to discuss booking him for your live show/event.
+						Contact DJ Shadow's management if you would like to discuss booking him for your live
+						show/event.
 					</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col text-center">
 					<button type="button" class="btn btn-contact" data-toggle="modal" data-target="#contactModal">
-		                Click here to Contact DJ Shadow Management</button>
+		        Click here to Contact DJ Shadow Management
+					</button>
 				</div>
 			</div>
 		</div>
 	</main>
-	<!--  
-	<div class="container contact-modal-form">-->
-	<div class="modal fade" id="contactModal" data-backdrop="static" tabindex="-1" aria-labelledby="contactModalLabel"
-		aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="contactModalLabel">Contact DJ Shadow Management</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          			<span aria-hidden="true">&times;</span>
-        			</button>
-				</div>
-				<div class="modal-body">
-					<form action="#" method="#">
-						<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
-						<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
-						<textarea name="message-text" id="message-text" cols="1" rows="5"
-										class="form-control" placeholder="Enter Message" required></textarea>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-							<button type="submit" class="btn btn-primary">Send message</button>
-						</div>
-					</form>
+	<!-- Contact Modal --> 
+	<div class="container contact-modal-form">
+		<div class="modal fade" id="contactModal" data-backdrop="static" tabindex="-1" aria-labelledby="contactModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="contactModalLabel">Contact DJ Shadow Management</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	         		<span aria-hidden="true">&times;</span>
+	        	</button>
+					</div>
+					<div class="modal-body">
+						<form action="#" method="#">
+							<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+							<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+							<textarea name="message-text" id="message-text" cols="1" rows="5"
+								class="form-control" placeholder="Enter Message" required></textarea>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="submit" class="btn btn-primary">Send message</button>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -231,37 +234,37 @@
 					<ul class="list-inline social-links pt-5 pb-3">
 						<li class="list-inline-item p-2">
 							<a href="https://play.spotify.com/artist/5CE2IfdYZEQGIDsfiRm8SI"
-								target="_blank"><i class="fab fa-spotify" aria-hidden="true"></i>
+								target="_blank" rel="noreferrer"><i class="fab fa-spotify" aria-hidden="true"></i>
 								<span class="sr-only">spotify link</span>
 							</a>
 						</li>
 						<li class="list-inline-item p-2">
 							<a href="http://itunes.com/djshadow"
-								target="_blank"><i class="fab fa-apple" aria-hidden="true"></i>
+								target="_blank" rel="noreferrer"><i class="fab fa-apple" aria-hidden="true"></i>
 								<span class="sr-only">itunes link</span>
 							</a>
 						</li>
 						<li class="list-inline-item p-2">
 							<a href="http://instagram.com/djshadow"
-								target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+								target="_blank" rel="noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i>
 								<span class="sr-only">Instagram link</span>
 							</a>
 						</li>
 						<li class="list-inline-item p-2">
 							<a href="http://www.youtube.com/user/djshadow"
-								target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>
+								target="_blank" rel="noreferrer"><i class="fab fa-youtube" aria-hidden="true"></i>
 								<span class="sr-only">Youtube link</span>
 							</a>
 						</li>
 						<li class="list-inline-item p-2">
 							<a href="https://www.facebook.com/djshadow"
-								target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i>
+								target="_blank" rel="noreferrer"><i class="fab fa-facebook-f" aria-hidden="true"></i>
 								<span class="sr-only">Facebook link</span>
 							</a>
 						</li>
 						<li class="list-inline-item p-2">
 							<a href="https://twitter.com/djshadow"
-								target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i>
+								target="_blank" rel="noreferrer"><i class="fab fa-twitter" aria-hidden="true"></i>
 								<span class="sr-only">twitter link</span>
 							</a>
 						</li>
