@@ -364,6 +364,23 @@ range of device and browser testing.
 
 Any issues have been cataloged in the Issues section on Github and closed
 when a sufficient solution was reached.
+
+All HTML and CSS files have been passed through the w3c validation service here
+https://validator.w3.org/
+
+The only issue of significance raised was issue #10. The 404.html code had an anchor
+element wrapped in a button. The solution was to use the anchor element only but styled 
+as a button.
+
+Chrome Dev Tools suggested that for security reasons that rel="noreferrer" should be 
+added to all external links.
+
+The other significant issue in testing was on mobile devices where the address bar 
+appears and disappears as the user scrolls, was causing a scaling issue where the fixed 
+background image set to 100vh would jump in scale slightly. To overcome this problem 
+on Chrome the background hero image on the landing page was allowed to scroll on mobile
+devices only. From research, this appears to be a known issue which can be solved with
+Javascript, but that is beyond the scope of this project right now. 
   
 
 ---
