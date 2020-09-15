@@ -37,17 +37,17 @@ Click the image to be taken to a live demo of the site:
 
 ### **Contents:**
 
-[1. UX Design](#1.-ux-design)
+[1. UX Design](#1-ux-design)
 
-[2. Features](#2.-features)
+[2. Features](#2-features)
 
-[3. Technologies Used](#3.-technologies-used)
+[3. Technologies Used](#3-technologies-used)
 
-[4. Testing](#4a.-testing-part-1)
+[4. Testing](#4a-testing-part-1)
 
-[5. Deployment](#5.-deployment)
+[5. Deployment](#5-deployment)
 
-[6. Credits](#6.-credits)
+[6. Credits](#6-credits)
 
 ---
 
