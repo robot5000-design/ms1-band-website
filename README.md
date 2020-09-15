@@ -243,7 +243,7 @@ _Others:_
 
 ---
 
-### **4. Testing:**
+### **4a. Testing Part 1:**
 
 The first part of testing was to confirm that all user stories requirements have been met.
 
@@ -345,6 +345,26 @@ For a fan:
 
   _Achieved by the Gallery page having up-to-date photos from artists Instagram._
   ![gallery](./documentation/images-for-readme/images-gallery.jpg)
+
+---
+### **4b. Testing Part 2:**
+
+The site has been tested on the following browsers:
+- Internet Explorer
+- Firefox
+- Google Chrome
+- Safari
+- Samsung on Android
+- Opera
+- Microsoft Edge
+
+The site has been tested on both mobile and desktop for responsiveness.
+In addition Chrome Development Tools and BrowserStack allowed for a broader
+range of device and browser testing. 
+
+Any issues have been cataloged in the Issues section on Github and closed
+when a sufficient solution was reached.
+  
 
 ---
 
