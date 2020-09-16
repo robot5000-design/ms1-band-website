@@ -373,15 +373,15 @@ All HTML and CSS files have been passed through the w3c validation service here
 https://validator.w3.org/
 
 The only issue of significance raised was issue #10. The 404.html code had an anchor
-element wrapped in a button. The solution was to use the anchor element only but styled
+element wrapped in a button. The solution was to use the anchor element only, but styled
 as a button.
 
 Chrome Dev Tools Lighthouse made a number of suggestions:
 
-- for security reasons that rel="noreferrer" should be
-  added to all external links. It indicates that no referrer information is to be leaked
-  when following the link and also implies the noopener keyword behavior under the same
-  conditions (taken from HTML Living Standard website).
+- for security reasons rel="noreferrer" should be added to all external links.
+	It indicates that no referrer information is to be leaked when following the link
+  and also implies the noopener keyword behavior under the same conditions (taken 
+  from HTML Living Standard website).
 
 - the embedded video iframe elements should have
   a title for screen readers. This has been added.
