@@ -400,6 +400,8 @@ Chrome Dev Tools Lighthouse made a number of suggestions:
   An appropriate aria-label has been added to each form input for assistive technology as
   suggested here (https://www.w3.org/WAI/tutorials/forms/labels/#hidden).
 
+- pages did not have a meta description for search engine optimisation. This has now been added.
+
 The other significant issue in testing was on mobile devices where the browser address bar
 appears and disappears as the user scrolls, was causing a scaling issue where the fixed
 background image set to 100vh would jump in scale slightly. To overcome this problem
