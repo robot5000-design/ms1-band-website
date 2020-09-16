@@ -366,6 +366,11 @@ The site has been tested on both mobile and desktop for responsiveness.
 In addition Chrome Development Tools and BrowserStack allowed for a broader
 range of device and browser testing.
 
+As per industry practice and to reduce the number of small commits on the master branch,
+seperate branches were created and used for the individual pages (where appropriate) and
+for the readme file as they were developed. These were squashed, merged and deleted
+after use.
+
 Any issues have been cataloged in the Issues section on Github and closed
 when a sufficient solution was reached.
 
@@ -379,8 +384,8 @@ as a button.
 Chrome Dev Tools Lighthouse made a number of suggestions:
 
 - for security reasons rel="noreferrer" should be added to all external links.
-	It indicates that no referrer information is to be leaked when following the link
-  and also implies the noopener keyword behavior under the same conditions (taken 
+  It indicates that no referrer information is to be leaked when following the link
+  and also implies the noopener keyword behavior under the same conditions (taken
   from HTML Living Standard website).
 
 - the embedded video iframe elements should have
@@ -390,6 +395,10 @@ Chrome Dev Tools Lighthouse made a number of suggestions:
   Again for accessability reasons. This has been removed.
 
 - size of images were reducing performance. All images have been reduced in size.
+
+- form inputs have no label. This is for styling reasons and only placeholder text is present.
+  An appropriate aria-label has been added to each form input for assistive technology as
+  suggested here (https://www.w3.org/WAI/tutorials/forms/labels/#hidden).
 
 The other significant issue in testing was on mobile devices where the browser address bar
 appears and disappears as the user scrolls, was causing a scaling issue where the fixed
