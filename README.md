@@ -240,6 +240,7 @@ _Others:_
 - Figma - For partial colour mock-up of home page.
 - Microsoft Paint 3D - For colourmatch.
 - Browserstack - To check base compatibility.
+- freeformatter.com - to format html files.
 
 ---
 
@@ -385,12 +386,19 @@ a title for screen readers. This has been added.
 The final suggestion made by Lighthouse was to remove the user-scalable="no" from the meta element.
 Again for accessability reasons. This has been removed. 
 
-The other significant issue in testing was on mobile devices where the address bar
+The other significant issue in testing was on mobile devices where the browser address bar
 appears and disappears as the user scrolls, was causing a scaling issue where the fixed
 background image set to 100vh would jump in scale slightly. To overcome this problem
 on Chrome the background hero image on the landing page was allowed to scroll on mobile
 devices only. From research, this appears to be a known issue which can be solved with
 Javascript, but that is beyond the scope of this project right now.
+
+All links both internal and external have been tested and verified from each page. External 
+links open in a new tab. As stated previously neither the subscribe or contact forms send data.
+All social media links have been obtained from the official DJ Shadow website. While they all work,
+w3c Link Checker showed that three of the links are redirected. It has not been possible to 
+verify the functionality of the iTunes link without a valid iTunes account. Link checker showed 
+a server side problem.
 
 ---
 
