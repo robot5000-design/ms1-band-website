@@ -241,6 +241,7 @@ _Others:_
 - Microsoft Paint 3D - For colourmatch.
 - Browserstack - To check base compatibility.
 - freeformatter.com - to format html files.
+- tinyJPG - to reduce image file size.
 
 ---
 
@@ -375,16 +376,20 @@ The only issue of significance raised was issue #10. The 404.html code had an an
 element wrapped in a button. The solution was to use the anchor element only but styled
 as a button.
 
-Chrome Dev Tools Lighthouse suggested that for security reasons that rel="noreferrer" should be
-added to all external links. It indicates that no referrer information is to be leaked
-when following the link and also implies the noopener keyword behavior under the same
-conditions (taken from HTML Living Standard website).
+Chrome Dev Tools Lighthouse made a number of suggestions:
 
-Chrome Dev Tools Lighthouse also suggested that the embedded video iframe elements should have
-a title for screen readers. This has been added.
+- for security reasons that rel="noreferrer" should be
+  added to all external links. It indicates that no referrer information is to be leaked
+  when following the link and also implies the noopener keyword behavior under the same
+  conditions (taken from HTML Living Standard website).
 
-The final suggestion made by Lighthouse was to remove the user-scalable="no" from the meta element.
-Again for accessability reasons. This has been removed. 
+- the embedded video iframe elements should have
+  a title for screen readers. This has been added.
+
+- remove the user-scalable="no" from the meta element.
+  Again for accessability reasons. This has been removed.
+
+- size of images were reducing performance. All images have been reduced in size.
 
 The other significant issue in testing was on mobile devices where the browser address bar
 appears and disappears as the user scrolls, was causing a scaling issue where the fixed
@@ -393,11 +398,11 @@ on Chrome the background hero image on the landing page was allowed to scroll on
 devices only. From research, this appears to be a known issue which can be solved with
 Javascript, but that is beyond the scope of this project right now.
 
-All links both internal and external have been tested and verified from each page. External 
+All links both internal and external have been tested and verified from each page. External
 links open in a new tab. As stated previously neither the subscribe or contact forms send data.
 All social media links have been obtained from the official DJ Shadow website. While they all work,
-w3c Link Checker showed that three of the links are redirected. It has not been possible to 
-verify the functionality of the iTunes link without a valid iTunes account. Link checker showed 
+w3c Link Checker showed that three of the links are redirected. It has not been possible to
+verify the functionality of the iTunes link without a valid iTunes account. Link checker showed
 a server side problem.
 
 ---
@@ -454,7 +459,5 @@ Paragraph on the About page is taken from the AllMusic DJ Shadow Biography page 
 
 Information on deployment was taken from Github Documentation
 [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-
-
 
 ---
