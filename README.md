@@ -178,7 +178,8 @@ switched on in the music store as you look through a window.
 Embedded classic video from Endtroducing in addition to an image of the new album
 with an opaque overlay on hover which has a link to the album on Spotify.
 
-A form to sign-up for a subscriber newsletter.
+A form to sign-up for a subscriber newsletter. Email address is required (Form does
+not send data).
 
 _2. Music:_
 
@@ -188,7 +189,8 @@ youtube videos to draw in new listeners.
 
 _3. Tour:_
 
-List of upcoming touring dates and contact form modal to contact management.
+List of upcoming touring dates and contact form modal to contact management. All inputs
+are required (Form does not send data).
 
 _3. Gallery:_
 
@@ -242,6 +244,11 @@ _Others:_
 - Browserstack - To check base compatibility.
 - freeformatter.com - to format html files.
 - tinyJPG - to reduce image file size.
+
+As per industry practice and to reduce the number of small commits on the master branch,
+seperate branches were created and used for the individual pages (where appropriate) and
+for the readme file as they were developed. These were squashed, merged and deleted
+after use.
 
 ---
 
@@ -352,7 +359,7 @@ For a fan:
 
 ### **4b. Testing Part 2**
 
-The site has been tested on the following browsers:
+The site has been tested on the following browsers on Windows 10:
 
 - Internet Explorer
 - Firefox
@@ -363,13 +370,8 @@ The site has been tested on the following browsers:
 - Microsoft Edge
 
 The site has been tested on both mobile and desktop for responsiveness.
-In addition Chrome Development Tools and BrowserStack allowed for a broader
-range of device and browser testing.
-
-As per industry practice and to reduce the number of small commits on the master branch,
-seperate branches were created and used for the individual pages (where appropriate) and
-for the readme file as they were developed. These were squashed, merged and deleted
-after use.
+In addition to Chrome Development Tools, BrowserStack allowed for limited additional
+testing on Apple desktop and mobile.
 
 Any issues have been cataloged in the Issues section on Github and closed
 when a sufficient solution was reached.
@@ -377,11 +379,11 @@ when a sufficient solution was reached.
 All HTML and CSS files have been passed through the w3c validation service here
 https://validator.w3.org/
 
-The only issue of significance raised was issue #10. The 404.html code had an anchor
-element wrapped in a button. The solution was to use the anchor element only, but styled
-as a button.
+The only issue of significance raised through the validator was issue #10. The 404.html
+code had an anchor element wrapped in a button. The solution was to use the anchor element
+only, but styled as a button.
 
-Chrome Dev Tools Lighthouse made a number of suggestions:
+_Chrome Dev Tools Lighthouse made a number of suggestions:_
 
 - for security reasons rel="noreferrer" should be added to all external links.
   It indicates that no referrer information is to be leaked when following the link
@@ -396,13 +398,13 @@ Chrome Dev Tools Lighthouse made a number of suggestions:
 
 - size of images were reducing performance. All images have been reduced in size.
 
-- form inputs have no label. This is for styling reasons and only placeholder text is present.
+- form inputs had no label. This is for styling reasons with only placeholder text present.
   An appropriate aria-label has been added to each form input for assistive technology as
   suggested here (https://www.w3.org/WAI/tutorials/forms/labels/#hidden).
 
 - pages did not have a meta description for search engine optimisation. This has now been added.
 
-_The Chrome Dev Tools Lighthouse scores are as follows:_
+_The Chrome Dev Tools Lighthouse scores are now as follows:_
 
 - Index Page:
   ![Index Score](./documentation/images-for-readme/lighthouse-scores/index-lighthouse-score.jpg)
@@ -423,18 +425,19 @@ _The Chrome Dev Tools Lighthouse scores are as follows:_
   ![Merch Score](./documentation/images-for-readme/lighthouse-scores/merch-lighthouse-score.jpg)
 
 Another significant issue in testing was on mobile devices where the browser address bar
-appears and disappears as the user scrolls, was causing a scaling issue where the fixed
+appears and disappears as the user scrolls. This was causing a scaling issue where the fixed
 background image set to 100vh would jump in scale slightly. To overcome this problem
 on Chrome the background hero image on the landing page was allowed to scroll on mobile
-devices only. From research, this appears to be a known issue which can be solved with
-Javascript, but that is beyond the scope of this project right now.
+devices only. Unfortunately changing it to scroll spoils the original effect but from research,
+this appears to be a known issue which can be solved with Javascript, but that is beyond the
+scope of this project right now.
 
-All links both internal and external have been tested and verified from each page. External
+All links both internal and external have been tested and verified from each page in turn. External
 links open in a new tab. As stated previously neither the subscribe or contact forms send data.
 All social media links have been obtained from the official DJ Shadow website. While they all work,
-w3c Link Checker showed that three of the links are redirected. It has not been possible to
-verify the functionality of the iTunes link without a valid iTunes account. Link checker showed
-a server side problem.
+w3c Link Checker showed that three of the links are redirected (to the correct location). It has not 
+been possible to verify the functionality of the iTunes link without a valid iTunes account. Link 
+checker showed a server side problem with this link.
 
 ---
 
@@ -490,5 +493,7 @@ Paragraph on the About page is taken from the AllMusic DJ Shadow Biography page 
 
 Information on deployment was taken from Github Documentation
 [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+Friends and family who tested the site.
 
 ---
