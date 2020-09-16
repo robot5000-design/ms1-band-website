@@ -402,7 +402,27 @@ Chrome Dev Tools Lighthouse made a number of suggestions:
 
 - pages did not have a meta description for search engine optimisation. This has now been added.
 
-The other significant issue in testing was on mobile devices where the browser address bar
+_The Chrome Dev Tools Lighthouse scores are as follows:_
+
+- Index Page:
+  ![Index Score](./documentation/images-for-readme/lighthouse-scores/index-lighthouse-score.jpg)
+
+- Music Page:
+  ![Music Score](./documentation/images-for-readme/lighthouse-scores/music-lighthouse-score.jpg)
+
+- Tour Page:
+  ![Tour Score](./documentation/images-for-readme/lighthouse-scores/tour-lighthouse-score.jpg)
+
+- Gallery Page:
+  ![Gallery Score](./documentation/images-for-readme/lighthouse-scores/gallery-lighthouse-score.jpg)
+
+- About Page:
+  ![About Score](./documentation/images-for-readme/lighthouse-scores/about-lighthouse-score.jpg)
+
+- Merch Page:
+  ![Merch Score](./documentation/images-for-readme/lighthouse-scores/merch-lighthouse-score.jpg)
+
+Another significant issue in testing was on mobile devices where the browser address bar
 appears and disappears as the user scrolls, was causing a scaling issue where the fixed
 background image set to 100vh would jump in scale slightly. To overcome this problem
 on Chrome the background hero image on the landing page was allowed to scroll on mobile
