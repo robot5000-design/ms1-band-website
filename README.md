@@ -244,6 +244,7 @@ _Others:_
 - Browserstack - To check base compatibility.
 - freeformatter.com - to format html files.
 - tinyJPG - to reduce image file size.
+- Autoprefixer - used to automatically add browser compatibility prefixes.
 
 As per industry practice and to reduce the number of small commits on the master branch,
 seperate branches were created and used for the individual pages (where appropriate) and
