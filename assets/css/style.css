@@ -7,7 +7,7 @@
   margin: 0;
   border: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -67,8 +67,8 @@ body p {
 
 #navbarNavDropdown {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 #navbarNavDropdown ul {
@@ -109,13 +109,13 @@ body p {
   height: 100%;
   position: absolute;
   -webkit-animation-name: lights-on;
-          animation-name: lights-on;
+  animation-name: lights-on;
   -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .hero-image {
@@ -240,11 +240,11 @@ body p {
 
 .form-elements-wrapper {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .subscribe-input {
@@ -427,8 +427,8 @@ body p {
 
 .gallery-wrapper {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .shop-link-container img,
@@ -441,8 +441,8 @@ body p {
 
 .gallery-pagination {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-top: 50px;
   font-family: "Roboto Mono", monospace;
   font-size: 25px;
@@ -484,7 +484,7 @@ body p {
 
 .page-link:focus {
   -webkit-box-shadow: 0 0;
-          box-shadow: 0 0;
+  box-shadow: 0 0;
 }
 
 .page-item:first-child .page-link,
@@ -561,5 +561,17 @@ body p {
 
   .tour-dates-wrapper {
     font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 297px) {
+  .music-container .album-name p {
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .spotify-overlay a i {
+    font-size: 9vw;
   }
 }

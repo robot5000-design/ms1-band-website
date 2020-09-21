@@ -65,6 +65,7 @@ __Summary__:
 
 - No problems found with Links.
 - Adjusted Top and bottom margin to images on About page when checking responsiveness.
-
+- Below 297px width album names on album page are overflowing. This may only affect the
+  Galaxy Fold. Insert appropriate media query.
 
  
