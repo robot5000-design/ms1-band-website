@@ -223,13 +223,15 @@ body p {
 .album-name p {
   font-family: "Roboto Mono", monospace;
   color: #fafafa;
-  font-size: 16px;
+  font-size: 1.5vw;
   font-weight: 400;
   text-align: center;
 }
 
 .album-name {
   padding-top: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 /*--------------------Subscription Container */
@@ -502,6 +504,7 @@ body p {
 /*--------------------Media Queries */
 
 @media screen and (min-width: 992px) {
+  /* spacing left/right to video container on index page when side by side */
   .video-container {
     padding-left: 30px;
     padding-right: 30px;
@@ -509,6 +512,7 @@ body p {
 }
 
 @media screen and (max-width: 992px) {
+	/* fixed nav on medium and smaller screens */
   .nav-container {
     padding: 0;
     position: fixed;
@@ -517,28 +521,32 @@ body p {
     z-index: 1;
   }
 
+	/* spacing containers down with fixed nav */
+	.music-container,
+  .gallery-container,
   .tour-container,
   .about-container,
   .shop-link-container {
-    margin-top: 120px;
+    margin-top: 117px;
   }
 
+	.hero-container {
+    padding-top: 115px;
+  }
+
+	/* scrolling index page hero image on medium and smaller screens */
   .hero-image {
     height: 75vh;
     background-attachment: scroll;
   }
 
-  .hero-container {
-    padding-top: 115px;
-  }
-
-  .music-container,
-  .gallery-container {
-    margin-top: 117px;
-  }
+	.album-image-wrapper .album-name p {
+		font-size: 3.5vw;
+	}
 }
 
 @media screen and (max-width: 768px) {
+	/* adjusting spacings when about page images are full width */
   .about-container .col img {
     width: 100%;
     margin-top: 30px;
@@ -546,9 +554,16 @@ body p {
     margin-left: 0;
     margin-right: 0;
   }
+
+	.album-name p {
+    font-size: 3vw;
+    font-weight: 400;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 576px) {
+	/* because justified text not suitable on small screens */
   .quote-container p,
   .about-container p {
     text-align: left;
@@ -559,19 +574,16 @@ body p {
     padding-right: 50px;
   }
 
+	/* text size relative to viewport width for small screens */
   .tour-dates-wrapper {
     font-size: 4vw;
   }
-}
 
-@media screen and (max-width: 297px) {
-  .music-container .album-name p {
-    font-size: 4vw;
-    font-weight: 400;
-    text-align: center;
+	.album-name p {
+    font-size: 3.5vw;
   }
 
-  .spotify-overlay a i {
+	.spotify-overlay a i {
     font-size: 9vw;
   }
 }
