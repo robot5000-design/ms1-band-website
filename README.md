@@ -377,6 +377,8 @@ testing on Apple desktop and mobile.
 Any issues have been cataloged in the Issues section on Github and closed
 when a sufficient solution was reached.
 
+Further testing of links and responsiveness can be found in the [test document](./documentation/test.md).
+
 All HTML and CSS files have been passed through the w3c validation service here
 https://validator.w3.org/
 
