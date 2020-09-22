@@ -547,6 +547,30 @@ body p {
   }
 }
 
+/* nav scrolls on small devices in landscape mode to create space */
+@media screen and (max-height: 400px) {
+  .nav-container {
+    position: relative;
+  }
+
+  #navbarNavDropdown ul li {
+    font-size: 30px;
+    line-height: 15px;
+  }
+
+	.hero-container {
+    padding-top: 0;
+  }
+
+  .music-container,
+  .gallery-container,
+  .tour-container,
+  .about-container,
+  .shop-link-container {
+    margin-top: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   /* adjusting spacings when about page images are full width */
   .about-container .col img {
