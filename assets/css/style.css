@@ -1,4 +1,4 @@
-/*--------------------General Rule */
+/*--------------------General Rules */
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@400;500;700&display=swap");
 
@@ -27,7 +27,56 @@ body p {
   font-family: "Roboto Mono", monospace;
 }
 
+/* Headings and headings icons */
+.page-heading {
+  font-family: "Bebas Neue", sans-serif;
+  color: #fafafa;
+  font-size: 40px;
+  text-align: center;
+}
+
 .page-heading i {
+  color: #3f3f3f;
+}
+
+.subscription-container i,
+.video-container i,
+.shop-link-container i {
+  font-size: 30px;
+  color: #3f3f3f;
+}
+
+/* Buttons */
+.btn-404,
+.btn-subscribe {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: #3f3f3f;
+  font-family: "Roboto Mono", monospace;
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  border-color: #3f3f3f;
+}
+
+.btn-contact {
+  width: 50%;
+  border-radius: 10px;
+  background-color: #3f3f3f;
+  font-family: "Roboto Mono", monospace;
+  color: #fafafa;
+  font-size: 100%;
+  font-weight: 500;
+  text-align: center;
+  border-color: #3f3f3f;
+  margin: 10px auto 50px;
+}
+
+.btn-contact:hover {
+  background-color: #fafafa;
+  border-color: #fafafa;
   color: #3f3f3f;
 }
 
@@ -129,7 +178,7 @@ body p {
   width: 100%;
 }
 
-/*--------------------Home Main Text */
+/*--------------------Home/About Main Text */
 
 .about-container p,
 .quote-container p {
@@ -144,7 +193,7 @@ body p {
   width: 100%;
 }
 
-/*--------------------Home Video Container */
+/*--------------------Home Video/Subscription Container */
 
 .video-container p,
 .subscription-container p {
@@ -162,13 +211,6 @@ body p {
 .video-container .video-embedded {
   margin: 0 auto;
   width: 100%;
-}
-
-.subscription-container i,
-.video-container i,
-.shop-link-container i {
-  font-size: 30px;
-  color: #3f3f3f;
 }
 
 .album-image {
@@ -230,8 +272,8 @@ body p {
 
 .album-name {
   padding-top: 10%;
-	padding-left: 5%;
-	padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /*--------------------Subscription Container */
@@ -261,20 +303,6 @@ body p {
   width: 300px;
 }
 
-.btn-404,
-.btn-subscribe {
-  width: 62px;
-  height: 62px;
-  border-radius: 50%;
-  background-color: #3f3f3f;
-  font-family: "Roboto Mono", monospace;
-  color: #fafafa;
-  font-size: 20px;
-  font-weight: 700;
-  text-align: center;
-  border-color: #3f3f3f;
-}
-
 /*--------------------Footer */
 
 .footer-container {
@@ -298,6 +326,7 @@ body p {
   text-decoration: none;
 }
 
+/* Color change on hover */
 .footer-container li a i,
 .footer-terms a {
   transition: all 0.15s ease-in-out;
@@ -319,12 +348,6 @@ body p {
   padding-bottom: 50px;
 }
 
-/*--------------------Merch */
-
-.shop-link-container {
-  padding: 50px 30px 100px;
-}
-
 /*--------------------Tour */
 
 .tour-container .tour-image {
@@ -338,6 +361,7 @@ body p {
   background-color: #3f3f3f;
 }
 
+/* Improve contrast with overlayed test */
 .tour-image-overlay {
   background-color: rgba(0, 0, 0, 0.4);
   top: 0;
@@ -365,25 +389,6 @@ body p {
   font-weight: 500;
   text-align: center;
   margin-top: 50px;
-}
-
-.btn-contact {
-  width: 50%;
-  border-radius: 10px;
-  background-color: #3f3f3f;
-  font-family: "Roboto Mono", monospace;
-  color: #fafafa;
-  font-size: 100%;
-  font-weight: 500;
-  text-align: center;
-  border-color: #3f3f3f;
-  margin: 10px auto 50px;
-}
-
-.btn-contact:hover {
-  background-color: #fafafa;
-  border-color: #fafafa;
-  color: #3f3f3f;
 }
 
 .modal-title {
@@ -414,14 +419,7 @@ body p {
   float: left;
 }
 
-/*--------------------Gallery */
-
-.page-heading {
-  font-family: "Bebas Neue", sans-serif;
-  color: #fafafa;
-  font-size: 40px;
-  text-align: center;
-}
+/*--------------------Gallery and Merch */
 
 .gallery-container {
   padding-bottom: 70px;
@@ -437,6 +435,10 @@ body p {
 .gallery-wrapper img {
   border: 3px solid #fafafa;
   border-radius: 10px;
+}
+
+.shop-link-container {
+  padding: 50px 30px 100px;
 }
 
 /*--------------------Gallery Pagination Custom Styling */
@@ -512,7 +514,7 @@ body p {
 }
 
 @media screen and (max-width: 992px) {
-	/* fixed nav on medium and smaller screens */
+  /* fixed nav on medium and smaller screens */
   .nav-container {
     padding: 0;
     position: fixed;
@@ -521,8 +523,8 @@ body p {
     z-index: 1;
   }
 
-	/* spacing containers down with fixed nav */
-	.music-container,
+  /* spacing containers down with fixed nav */
+  .music-container,
   .gallery-container,
   .tour-container,
   .about-container,
@@ -530,23 +532,23 @@ body p {
     margin-top: 117px;
   }
 
-	.hero-container {
+  .hero-container {
     padding-top: 115px;
   }
 
-	/* scrolling index page hero image on medium and smaller screens */
+  /* scrolling index page hero image on medium and smaller screens */
   .hero-image {
     height: 75vh;
     background-attachment: scroll;
   }
 
-	.album-image-wrapper .album-name p {
-		font-size: 3.5vw;
-	}
+  .album-image-wrapper .album-name p {
+    font-size: 3.5vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
-	/* adjusting spacings when about page images are full width */
+  /* adjusting spacings when about page images are full width */
   .about-container .col img {
     width: 100%;
     margin-top: 30px;
@@ -555,7 +557,7 @@ body p {
     margin-right: 0;
   }
 
-	.album-name p {
+  .album-name p {
     font-size: 3vw;
     font-weight: 400;
     text-align: center;
@@ -563,7 +565,7 @@ body p {
 }
 
 @media screen and (max-width: 576px) {
-	/* because justified text not suitable on small screens */
+  /* because justified text not suitable on small screens */
   .quote-container p,
   .about-container p {
     text-align: left;
@@ -574,16 +576,16 @@ body p {
     padding-right: 50px;
   }
 
-	/* text size relative to viewport width for small screens */
+  /* text size relative to viewport width for small screens */
   .tour-dates-wrapper {
     font-size: 4vw;
   }
 
-	.album-name p {
+  .album-name p {
     font-size: 3.5vw;
   }
 
-	.spotify-overlay a i {
+  .spotify-overlay a i {
     font-size: 9vw;
   }
 }
