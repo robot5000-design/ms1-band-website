@@ -230,6 +230,8 @@ body p {
   animation-timing-function: linear;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .hero-image {
