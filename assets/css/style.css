@@ -1,4 +1,11 @@
-/*--------------------General Rules */
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*--------------------------------------------------------General Rules */
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@400;500;700&display=swap");
 
@@ -46,6 +53,15 @@ body p {
   color: #3f3f3f;
 }
 
+/* spacing containers down for fixed nav */
+.music-container,
+.gallery-container,
+.tour-container,
+.about-container,
+.shop-link-container {
+  margin-top: 117px;
+}
+
 /* Buttons */
 .btn-404,
 .btn-subscribe {
@@ -80,14 +96,18 @@ body p {
   color: #3f3f3f;
 }
 
-/*--------------------Navbar */
+/*--------------------------------------------------------Navbar */
 
 .navbar {
   background-color: #9f8a38;
-  position: relative;
 }
 
 .nav-container {
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
   border-bottom: 1px solid #3f3f3f30;
 }
 
@@ -124,11 +144,56 @@ body p {
   text-align: end;
 }
 
-/*--------------------Home Background Image */
+/*--------------------------------------------------------Footer */
+
+.footer-container {
+  background-color: #3f3f3f;
+  min-height: 160px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-container li a i {
+  color: #fafafa;
+  font-size: 28px;
+}
+
+.footer-terms a,
+.footer-terms {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  color: #fafafa;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/* Color change on hover */
+.footer-container li a i,
+.footer-terms a {
+  transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+}
+
+.footer-terms a:hover,
+.footer-container li a i:hover {
+  color: #9f8a38;
+}
+
+.footer-terms .footer-terms-item {
+  padding-bottom: 25px;
+}
+
+.footer-terms .copyright-message {
+  padding-bottom: 50px;
+}
+
+/*--------------------------------------------------------Home Background Image */
 
 .hero-container {
   margin: 0;
-  padding: 0;
+  padding-top: 115px;
 }
 
 /* dark to light animation for hero image */
@@ -170,7 +235,7 @@ body p {
 .hero-image {
   background: url(../images/hero_image2.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 80vh;
+  height: 75vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,7 +243,7 @@ body p {
   width: 100%;
 }
 
-/*--------------------Home/About Main Text */
+/*--------------------------------------------------------Home/About Main Text */
 
 .about-container p,
 .quote-container p {
@@ -186,14 +251,14 @@ body p {
   font-size: 20px;
   font-weight: 700;
   line-height: 50px;
-  text-align: justify;
+  text-align: left;
 }
 
 .quote-container {
   width: 100%;
 }
 
-/*--------------------Home Video/Subscription Container */
+/*--------------------------------------------------------Home Video/Subscription Container */
 
 .video-container p,
 .subscription-container p {
@@ -251,7 +316,7 @@ body p {
 
 .spotify-overlay a i {
   color: #1db954;
-  font-size: 40px;
+  font-size: 9vw;
 }
 
 .spotify-overlay .spotify-link-wrapper {
@@ -265,7 +330,7 @@ body p {
 .album-name p {
   font-family: "Roboto Mono", monospace;
   color: #fafafa;
-  font-size: 1.5vw;
+  font-size: 3.5vw;
   font-weight: 400;
   text-align: center;
 }
@@ -276,7 +341,7 @@ body p {
   padding-right: 5%;
 }
 
-/*--------------------Subscription Container */
+/*--------------------------------------------------------Subscription Container */
 
 .subscription-container p {
   padding-right: 8px;
@@ -303,52 +368,7 @@ body p {
   width: 300px;
 }
 
-/*--------------------Footer */
-
-.footer-container {
-  background-color: #3f3f3f;
-  min-height: 160px;
-  text-align: center;
-  position: relative;
-}
-
-.footer-container li a i {
-  color: #fafafa;
-  font-size: 28px;
-}
-
-.footer-terms a,
-.footer-terms {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 500;
-  color: #fafafa;
-  margin: 0 auto;
-  text-decoration: none;
-}
-
-/* Color change on hover */
-.footer-container li a i,
-.footer-terms a {
-  transition: all 0.15s ease-in-out;
-  -moz-transition: all 0.15s ease-in-out;
-  -webkit-transition: all 0.15s ease-in-out;
-  -o-transition: all 0.15s ease-in-out;
-}
-
-.footer-terms a:hover,
-.footer-container li a i:hover {
-  color: #9f8a38;
-}
-
-.footer-terms .footer-terms-item {
-  padding-bottom: 25px;
-}
-
-.footer-terms .copyright-message {
-  padding-bottom: 50px;
-}
-
-/*--------------------Tour */
+/*--------------------------------------------------------Tour */
 
 .tour-container .tour-image {
   background: url(../images/shadow_live.jpg) 70% center scroll;
@@ -376,6 +396,7 @@ body p {
   padding-top: 70px;
   padding-bottom: 100px;
   font-weight: 700;
+  font-size: 3.5vw;
 }
 
 .tour-dates-wrapper .row {
@@ -401,25 +422,19 @@ body p {
   font-family: "Roboto Mono", monospace;
 }
 
-/*--------------------About */
+/*--------------------------------------------------------About */
 
-.about-container .shadow-vinyl-image {
-  width: 33%;
-  margin: 15px 0 10px 40px;
+.about-container .col img {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  margin-right: 0;
   border: 3px solid #fafafa;
   border-radius: 10px;
-  float: right;
 }
 
-.about-container .shadow-sitting-image {
-  width: 33%;
-  margin: 20px 40px 10px 0;
-  border: 3px solid #fafafa;
-  border-radius: 10px;
-  float: left;
-}
-
-/*--------------------Gallery and Merch */
+/*--------------------------------------------------------Gallery and Merch */
 
 .gallery-container {
   padding-bottom: 70px;
@@ -441,7 +456,7 @@ body p {
   padding: 50px 30px 100px;
 }
 
-/*--------------------Gallery Pagination Custom Styling */
+/*--------------------------------------------------------Gallery Pagination Custom Styling */
 
 .gallery-pagination {
   -webkit-box-pack: center;
@@ -496,59 +511,17 @@ body p {
   border-radius: 50%;
 }
 
-/*--------------------Custom 404 Page */
+/*--------------------------------------------------------Custom 404 Page */
 
 .btn-404 {
   width: 100px;
   padding-top: 12px;
 }
 
-/*--------------------Media Queries */
-
-@media screen and (min-width: 992px) {
-  /* spacing left/right to video container on index page when side by side */
-  .video-container {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  /* fixed nav on medium and smaller screens */
-  .nav-container {
-    padding: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
-
-  /* spacing containers down with fixed nav */
-  .music-container,
-  .gallery-container,
-  .tour-container,
-  .about-container,
-  .shop-link-container {
-    margin-top: 117px;
-  }
-
-  .hero-container {
-    padding-top: 115px;
-  }
-
-  /* scrolling index page hero image on medium and smaller screens */
-  .hero-image {
-    height: 75vh;
-    background-attachment: scroll;
-  }
-
-  .album-image-wrapper .album-name p {
-    font-size: 3.5vw;
-  }
-}
+/*--------------------------------------------------------Media Queries */
 
 /* nav scrolls on small devices in landscape mode to create space */
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 450px) {
   .nav-container {
     position: relative;
   }
@@ -558,8 +531,8 @@ body p {
     line-height: 15px;
   }
 
-	.hero-container {
-    padding-top: 0;
+  .hero-container {
+    padding: 0;
   }
 
   .music-container,
@@ -571,45 +544,79 @@ body p {
   }
 }
 
-@media screen and (max-width: 768px) {
-  /* adjusting spacings when about page images are full width */
-  .about-container .col img {
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 0;
-    margin-right: 0;
+@media screen and (min-width: 576px) {
+  /* justified text looks more uniform on larger screens */
+  .quote-container p,
+  .about-container p {
+    text-align: justify;
+  }
+
+  .tour-dates-wrapper {
+    font-size: 1rem;
   }
 
   .album-name p {
     font-size: 3vw;
+  }
+
+  .spotify-overlay a i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* adjusting spacings when about page images are floated */
+  .about-container .col .shadow-vinyl-image {
+    width: 33%;
+    margin: 15px 0 10px 40px;
+    float: right;
+  }
+
+  .about-container .col .shadow-sitting-image {
+    width: 33%;
+    margin: 20px 40px 10px 0;
+    float: left;
+  }
+
+  .album-name p {
+    font-size: 1.5vw;
     font-weight: 400;
     text-align: center;
   }
 }
 
-@media screen and (max-width: 576px) {
-  /* because justified text not suitable on small screens */
-  .quote-container p,
-  .about-container p {
-    text-align: left;
+@media screen and (min-width: 992px) {
+  /* scrolling nav on medium and larger screens */
+  .nav-container {
+    position: relative;
   }
 
-  .music-container {
-    padding-left: 50px;
-    padding-right: 50px;
+  /* remove spacing containers downwards with non-fixed nav */
+  .music-container,
+  .gallery-container,
+  .tour-container,
+  .about-container,
+  .shop-link-container {
+    margin-top: 0;
   }
 
-  /* text size relative to viewport width for small screens */
-  .tour-dates-wrapper {
-    font-size: 4vw;
+  .hero-container {
+    padding-top: 0;
   }
 
-  .album-name p {
-    font-size: 3.5vw;
+  /* fixed index-page hero-image on medium and larger screens */
+  .hero-image {
+    height: 80vh;
+    background-attachment: fixed;
   }
 
-  .spotify-overlay a i {
-    font-size: 9vw;
+  .album-image-wrapper .album-name p {
+    font-size: 1.5vw;
+  }
+
+  /* spacing left/right to video container on index page when side by side */
+  .video-container {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }

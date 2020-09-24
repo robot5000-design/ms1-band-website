@@ -61,11 +61,13 @@ Shop Link | | | | | | | y
 - Check Contact Form: Not active. No error. Working as expected.
 
 ---
-__Summary__: 
+__Summary:__
 
 - No problems found with Links.
 - Adjusted Top and bottom margin to images on About page when checking responsiveness.
 - Below 297px width album names on album page are overflowing. This may only affect the
   Galaxy Fold. Insert appropriate media query.
 
- 
+__Addendum:__
+
+ - Tested responsivity again after modifying media queries for min-width.
