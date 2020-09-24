@@ -239,7 +239,7 @@ body p {
 .hero-image {
   background: url(../images/hero_image2.jpg) no-repeat center center scroll;
   background-size: cover;
-  height: 80vh;
+  height: 75vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -615,6 +615,7 @@ body p {
   /* fixed index-page hero-image on medium and larger screens */
   .hero-image {
     background-attachment: fixed;
+    height: 80vh;
   }
 
   .album-image-wrapper .album-name p {
