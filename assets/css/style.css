@@ -237,9 +237,9 @@ body p {
 }
 
 .hero-image {
-  background: url(../images/hero_image2.jpg) no-repeat center center fixed;
+  background: url(../images/hero_image2.jpg) no-repeat center center scroll;
   background-size: cover;
-  height: 75vh;
+  height: 80vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -614,7 +614,6 @@ body p {
 
   /* fixed index-page hero-image on medium and larger screens */
   .hero-image {
-    height: 80vh;
     background-attachment: fixed;
   }
 
