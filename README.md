@@ -86,9 +86,9 @@ As an event organiser:
 The main goals of this site, arising from the user stories and research of other musician sites are:
 
 - to have useful and appealing information about the artist.
-- to have links to samples of his music (videos/spotify).
-- to have links to his social media.
-- to have upcoming touring dates & ability to contact his management
+- to have links to samples of their music (videos/spotify).
+- to have links to their social media.
+- to have upcoming touring dates & ability to contact their management
 - to have a selection of photos.
 - to have merchandising.
 - to have a news page or a newsletter subscriber sign-up.
@@ -97,10 +97,10 @@ The main goals of this site, arising from the user stories and research of other
 
 Based on the results of the Strategy research the features to be included are:
 
-- Landing page with iconic endtroducing image.
+- Landing page with iconic Endtroducing image.
 - Gallery with photos from official Instagram.
-- Music page with links to all albums on spotify.
-- Embedded youtube videos of some well known music pieces.
+- Music page with links to all albums on Spotify.
+- Embedded Youtube videos of some well known music pieces.
 - A newsletter subscription form.
 - A bio page.
 - An upcoming gigs page with the ability to contact management.
@@ -110,12 +110,12 @@ Based on the results of the Strategy research the features to be included are:
 
 #### Structure
 
-- A simple tree and branch layout with few pages all accessible from the navigation bar at
+- A simple tree and branch layout with few pages, all accessible from the navigation bar at
   the top of the page where the user expects.
-- Custom 404 page, so in the case of a broken external link a button is provided
-  for the user to return to safety.
 - Tree structure implemented with navbar for mobile users and linear path on gallery page
   if necessary to reduce the number of photos on screen all at once.
+- Custom 404 page, so in the case of a broken external link a button is provided
+  for the user to return to safety.
 
 #### Skeleton
 
@@ -156,8 +156,11 @@ and basic theme. The Figma mock-up can be viewed [here](./documentation/images-f
 ### **2. Features**
 
 Common to all pages, a nav element with navigation links at the top of the page. This is fixed
-on mobile where the smaller screen results in more scrolling. A navbar is also utilised
-on smaller screen sizes. Icons have been used to completment all headings.
+on mobile to give easy access where the smaller screen results in more scrolling. A navbar
+is also utilised on smaller screen sizes. Icons have been used to complement all headings.
+A media query allows the nav to scroll again for when height is limited, such as a small
+device in landscape mode.
+
 
 In addition all pages have a constant footer which contains links to social media, terms(doesn't exist)
 and privacy(doesn't exist). These links provide interactive feedback when hovered over,
@@ -183,9 +186,9 @@ not send data).
 
 _2. Music:_
 
-Selection of all album covers that when hovered over the opaque overlay contains
+Selection of all album covers that when hovered over, the opaque overlay contains
 information on the album and a link to the album on Spotify. Selection of embedded
-youtube videos to draw in new listeners.
+Youtube videos to draw in new listeners.
 
 _3. Tour:_
 
@@ -284,7 +287,7 @@ For a fan:
 
 For the site owner:
 
-- I want fans to be able to listen to samples of my music and be directed to spotify where I make money from their repeat listens.
+- I want fans to be able to listen to samples of my music and be directed to Spotify where I make money from their repeat listens.
 
 For a fan:
 
@@ -482,21 +485,21 @@ _For this website to be run locally it will need to be cloned:_
 
 ### **6. Credits**
 
-All images in the gallery are taken from the official DJ Shadow Instagram.
+- All images in the gallery are taken from the official DJ Shadow Instagram.
 
-All embedded video are from the official DJ Shadow YouTube channel.
+- All embedded video are from the official DJ Shadow YouTube channel.
 
-All album covers are taken from https://www.discogs.com/artist/4478-DJ-Shadow
+- All album covers are taken from https://www.discogs.com/artist/4478-DJ-Shadow
 
-Paragraph on the Home page is taken from the AllMusic review of the album Endtroducing and can be found
+- Paragraph on the Home page is taken from the AllMusic review of the album Endtroducing and can be found
 [here](https://www.allmusic.com/album/endtroducing-mw0000082992).
 
-Paragraph on the About page is taken from the AllMusic DJ Shadow Biography page and can be found
+- Paragraph on the About page is taken from the AllMusic DJ Shadow Biography page and can be found
 [here](https://www.allmusic.com/artist/dj-shadow-mn0000949820/biography).
 
-Information on deployment was taken from Github Documentation
+- Information on deployment was taken from Github Documentation
 [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
-Friends and family who tested the site.
+- Friends and family who tested the site.
 
 ---
