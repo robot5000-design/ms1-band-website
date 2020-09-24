@@ -127,13 +127,6 @@ body p {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-#navbarNavDropdown ul li {
-  font-family: "Bebas Neue", sans-serif;
-  color: #fafafa;
-  font-size: 40px;
-  line-height: 25px;
-}
-
 #navbarNavDropdown {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
@@ -142,6 +135,15 @@ body p {
 
 #navbarNavDropdown ul {
   text-align: end;
+}
+
+#navbarNavDropdown ul li {
+  font-family: "Bebas Neue", sans-serif;
+  color: #fafafa;
+  font-size: 40px;
+  line-height: 25px;
+  width: 150px;
+  margin-left: auto;
 }
 
 /*--------------------------------------------------------Footer */
@@ -591,6 +593,10 @@ body p {
   /* scrolling nav on medium and larger screens */
   .nav-container {
     position: relative;
+  }
+
+  #navbarNavDropdown ul li {
+    width: 100%;
   }
 
   /* remove spacing containers downwards with non-fixed nav */
