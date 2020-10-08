@@ -8,7 +8,7 @@ Using Chrome and Chrome Dev Tools. Check all links open in new tab.
 - Nav Element Links:
 
 Links | index.html | music.html | tour.html | gallery.html | gallery_2.html | about.html | merch.html
---- | --- | --- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | ---
 Logo | y | y | y | y | y | y | y
 Home | y | y | y | y | y | y | y
 Music | y | y | y | y | y | y | y
@@ -20,7 +20,7 @@ Merch | y | y | y | y | y | y | y
 - Footer Element Links:
   
 Links | index.html | music.html | tour.html | gallery.html | gallery_2.html | about.html | merch.html
---- | --- | --- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | ---
 Spotify | y | y | y | y | y | y | y
 iTunes | y | y | y | y | y | y | y
 Instagram | y | y | y | y | y | y | y
@@ -33,7 +33,7 @@ Privacy | y | y | y | y | y | y | y
 ## 2. Individual pages:
 
 Links | index.html | music.html | tour.html | gallery.html | gallery_2.html | about.html | merch.html
---- | --- | --- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | ---
 Midnight Embedded | y 
 New Album | y 
 Pathetic |  | y 
