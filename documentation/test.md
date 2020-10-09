@@ -60,6 +60,12 @@ Shop Link | | | | | | | y
 - Check Subscribe Form: Not active. No error. Working as expected.
 - Check Contact Form: Not active. No error. Working as expected.
 
+
+## 4. Page Responsiveness:
+
+- Each page is checked for responsiveness using Chrome Dev Tools sliding re-sizer tool.
+- Any problems are mentioned in the Summary below.
+
 ---
 __Summary:__
 
