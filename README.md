@@ -114,7 +114,7 @@ Based on the results of the Strategy research the features to be included are:
   the top of the page where the user expects.
 - Tree structure implemented with navbar for mobile users and linear path on gallery page
   if necessary to reduce the number of photos on screen all at once.
-- Custom 404 page, so in the case of a broken external link a button is provided
+- Custom 404 page, so in the case of a broken internal link a button is provided
   for the user to return to safety.
 
 #### Skeleton
@@ -161,7 +161,6 @@ is also utilised on smaller screen sizes. Icons have been used to complement all
 A media query allows the nav to scroll again for when height is limited, such as a small
 device in landscape mode.
 
-
 In addition all pages have a constant footer which contains links to social media, terms(doesn't exist)
 and privacy(doesn't exist). These links provide interactive feedback when hovered over,
 they change colour.
@@ -207,6 +206,11 @@ Some bio info about the artist with appropriate photos.
 _5. Merch:_
 
 Link to the official DJ Shadow online Shop.
+
+_6. Custom 404 page:_
+
+This is activated if there was a broken internal link or if a user manually tries
+to type or modify an internal address.
 
 _Other potential features which could be implemented in future:_
 
@@ -439,7 +443,8 @@ this appears to be a known issue which can be solved with Javascript, but that i
 scope of this project right now.
 
 All links both internal and external have been tested and verified from each page in turn. External
-links open in a new tab. As stated previously neither the subscribe or contact forms send data.
+links open in a new tab. As stated previously neither the subscribe or contact forms send data and
+the terms and privacy links are not directed to any address.
 All social media links have been obtained from the official DJ Shadow website. While they all work,
 w3c Link Checker showed that three of the links are redirected (to the correct location). It has not 
 been possible to verify the functionality of the iTunes link without a valid iTunes account. Link 
@@ -507,6 +512,8 @@ _For this website to be run locally it can downloaded as a ZIP file or it can be
 
 - Information on deployment was taken from Github Documentation
 [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+- The Code Institute Slack community for information regarding the imlementation of the 404 page.
 
 - Mentor for time and advice.
 
