@@ -460,7 +460,15 @@ _To Deploy on Github Pages:_
 5. After it saves, scroll back down to the Github Pages section and the URL for
    where the site is published will now be available.
 
-_For this website to be run locally it will need to be cloned:_
+_For this website to be run locally it can downloaded as a ZIP file or it can be cloned:_
+
+- To download and run a local ZIP copy:
+
+  1. On GitHub, navigate to the main page of the repository.
+  2. Above the list of files, click Code.
+  3. Click Download ZIP.
+  4. Navigate to the local Downloads folder and un-zip the project_one-master folder.
+  5. Open the file index.html in an internat browser.
 
 - To Clone using Command Line:
 
@@ -499,6 +507,8 @@ _For this website to be run locally it will need to be cloned:_
 
 - Information on deployment was taken from Github Documentation
 [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+- Mentor for time and advice.
 
 - Friends and family who tested the site.
 
