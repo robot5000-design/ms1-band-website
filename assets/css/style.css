@@ -142,7 +142,6 @@ body p {
   color: #fafafa;
   font-size: 40px;
   line-height: 25px;
-  width: 150px;
   margin-left: auto;
 }
 /* customising properties of the bootstrap hamburger icon -- end */
@@ -594,10 +593,6 @@ body p {
   /* scrolling nav on medium and larger screens */
   .nav-container {
     position: relative;
-  }
-
-  #navbarNavDropdown ul li {
-    width: 100%;
   }
 
   /* remove spacing containers downwards with non-fixed nav */
