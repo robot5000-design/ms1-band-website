@@ -384,14 +384,17 @@ testing on Apple desktop and mobile.
 Any issues have been cataloged in the Issues section on Github and closed
 when a sufficient solution was reached.
 
-Further testing of links and responsiveness can be found in the [test document](./documentation/test.md).
+__Further testing of links and responsiveness can be found in the [test document](./documentation/test.md).__
 
 All HTML and CSS files have been passed through the w3c validation service here
 https://validator.w3.org/
 
 The only issue of significance raised through the validator was issue #10. The 404.html
 code had an anchor element wrapped in a button. The solution was to use the anchor element
-only, but styled as a button.
+only, but styled as a button. The other issue was a Bad value "#" for attribute "method" 
+for both the Subscribe and Contact form elements. This has been left as when the
+form is fully functioning in future it will have a valid method. Right now that is 
+beyond the scope of this project.
 
 _Chrome Dev Tools Lighthouse made a number of suggestions:_
 
