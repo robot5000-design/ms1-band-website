@@ -177,8 +177,13 @@ used on the original Endtroducing album cover. An opaque overlay gradually light
 up from dark when you arrive on the page. This gives the impression of the lights being
 switched on in the music store as you look through a window.
 
-Embedded classic video from Endtroducing in addition to an image of the new album
-with an opaque overlay on hover which has a link to the album on Spotify.
+It was decided that the purpose of the website is clear to a new user from the artists 
+name alone because of the use of DJ in it and the YouTube and Spotify links, that there
+was no need to insert a further explanation which could detract from rather than enhance
+the page.
+
+There's an embedded classic video from Endtroducing in addition to an image of the new 
+album with an opaque overlay on hover which has a link to the album on Spotify.
 
 A form to sign-up for a subscriber newsletter. Email address is required (Form does
 not send data).
