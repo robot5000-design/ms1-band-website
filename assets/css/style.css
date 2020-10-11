@@ -20,8 +20,6 @@
 body {
   background-color: #9f8a38;
   color: #fafafa;
-  padding: 0;
-  margin: 0;
 }
 
 body h1 {
@@ -62,7 +60,7 @@ body p {
   margin-top: 117px;
 }
 
-/* Buttons */
+/* Buttons -- start */
 .btn-404,
 .btn-subscribe {
   width: 62px;
@@ -95,6 +93,7 @@ body p {
   border-color: #fafafa;
   color: #3f3f3f;
 }
+/* Buttons -- end */
 
 /*--------------------------------------------------------Navbar */
 
@@ -279,7 +278,6 @@ body p {
 
 .video-container .video-embedded {
   margin: 0 auto;
-  width: 100%;
 }
 
 .album-image {
@@ -289,12 +287,10 @@ body p {
 }
 
 .album-image-wrapper {
-  width: 100%;
   margin: 0 auto;
 }
 
 .overlay-container {
-  width: 100%;
   position: relative;
 }
 

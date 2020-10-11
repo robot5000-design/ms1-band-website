@@ -516,6 +516,9 @@ _For this website to be run locally it can downloaded as a ZIP file or it can be
 
 - All images in the gallery are taken from the official DJ Shadow Instagram.
 
+- The main logo is taken from the cover of the anniversary edition of DJ Shadow's
+	Endtroducing Album.
+
 - All embedded video are from the official DJ Shadow YouTube channel.
 
 - All album covers are taken from https://www.discogs.com/artist/4478-DJ-Shadow
