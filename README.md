@@ -369,13 +369,13 @@ For a fan:
 
 The site has been tested on the following browsers on Windows 10:
 
-- Internet Explorer
-- Firefox
-- Google Chrome
-- Safari
-- Samsung on Android
-- Opera
-- Microsoft Edge
+- Internet Explorer 11
+- Firefox 81.0.1
+- Google Chrome 85.0.4183.121
+- Safari 
+- Samsung on Android 8.0.0
+- Opera 1.0.3770.228
+- Microsoft Edge 86.0.622.38
 
 The site has been tested on both mobile and desktop for responsiveness.
 In addition to Chrome Development Tools, BrowserStack allowed for limited additional
@@ -451,7 +451,7 @@ been possible to verify the functionality of the iTunes link without a valid iTu
 checker showed a server side problem with this link.
 
 As was pointed out on the Code Institute Slack community and by my mentor the 404 page
-has limited functionality. It is only for broken internal link of which there are none.
+has limited functionality. It is only for broken internal links of which there are none.
 However, it can be tested by modifying the web address to be incorrect in the browser
 address bar. Note that if a forward slash is added to the end of the address the 404
 page appears unstyled. Thanks again to the Slack community for pointing this out.
@@ -526,3 +526,7 @@ _For this website to be run locally it can downloaded as a ZIP file or it can be
 - Friends and family who tested the site.
 
 ---
+
+### **Disclaimer**
+
+- This website is for educational purposes only.
