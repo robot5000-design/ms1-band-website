@@ -450,6 +450,12 @@ w3c Link Checker showed that three of the links are redirected (to the correct l
 been possible to verify the functionality of the iTunes link without a valid iTunes account. Link 
 checker showed a server side problem with this link.
 
+As was pointed out on the Code Institute Slack community and by my mentor the 404 page
+has limited functionality. It is only for broken internal link of which there are none.
+However, it can be tested by modifying the web address to be incorrect in the browser
+address bar. Note that if a forward slash is added to the end of the address the 404
+page appears unstyled. Thanks again to the Slack community for pointing this out.
+
 ---
 
 ### **5. Deployment**

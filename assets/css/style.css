@@ -525,7 +525,7 @@ body p {
 /*--------------------------------------------------------Media Queries */
 
 /* nav scrolls on small devices in landscape mode to create space */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) and (max-width: 992px) {
   .nav-container {
     position: relative;
   }

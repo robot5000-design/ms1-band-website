@@ -64,6 +64,7 @@ Shop Link | | | | | | | y
 ## 4. Page Responsiveness:
 
 - Each page is checked for responsiveness using Chrome Dev Tools sliding re-sizer tool.
+From 280px (Samsung Galaxy Fold) up to full width 1536px on a 4k laptop.
 - Any problems are mentioned in the Summary below.
 
 ---
