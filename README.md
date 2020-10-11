@@ -391,12 +391,14 @@ https://validator.w3.org/
 
 The only issue of significance raised through the validator was issue #10. The 404.html
 code had an anchor element wrapped in a button. The solution was to use the anchor element
-only, but styled as a button. The other issue was a Bad value "#" for attribute "method" 
-for both the Subscribe and Contact form elements. This has been left as when the
-form is fully functioning in future it will have a valid method. Right now that is 
-beyond the scope of this project.
+only, but styled as a button. The other issue raised was a Bad value "#" for attribute "method" 
+for both the Subscribe and Contact form elements. This had been left as a placeholder for 
+when the form is fully functioning in future it would have a valid method. Right now that is 
+beyond the scope of this project. So the method on both forms has been removed for now.
 
-_Chrome Dev Tools Lighthouse made a number of suggestions:_
+Afterwards, all HTML and CSS files passed through the w3c validators without issue.
+
+__Chrome Dev Tools Lighthouse made a number of suggestions:__
 
 - for security reasons rel="noreferrer" should be added to all external links.
   It indicates that no referrer information is to be leaked when following the link
