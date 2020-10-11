@@ -114,3 +114,11 @@ H450px | y | y | y | y | y | y | y
 
 - hero image resizing jump on mobile bug #1.
 	Fixed.
+
+### List of devices tested:
+- Samsung Galaxy S7
+- Samsung Galaxy S9
+- Huawei P30 Pro
+- iPhones 8, 6s, X through Browserstack
+- Asus k501u 4k laptop
+- Chrome Dev Tools Device Emulator

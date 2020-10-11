@@ -372,7 +372,7 @@ The site has been tested on the following browsers on Windows 10:
 - Internet Explorer 11
 - Firefox 81.0.1
 - Google Chrome 85.0.4183.121
-- Safari 
+- Safari 13.1 on Mac
 - Samsung on Android 8.0.0
 - Opera 1.0.3770.228
 - Microsoft Edge 86.0.622.38
