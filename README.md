@@ -10,9 +10,9 @@
 
 The brief for this project was to build a website to represent a band, which would
 appeal to both new and existing fans. The music artist DJ Shadow was chosen as the
-subject for this purpose. The design was based on user experience priciples and a
-responsive mobile first method was employed. The purpose of this wesite is to provide
-users with:
+subject for this purpose. The design is based on user experience priciples. Clean 
+coding and a responsive mobile first method was employed. The purpose of this wesite
+is to provide users with:
 
 - useful and appealing information about the artist
 - links to samples of his music (videos/spotify)
