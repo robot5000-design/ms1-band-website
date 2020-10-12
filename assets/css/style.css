@@ -549,6 +549,8 @@ body p {
   .quote-container p,
   .about-container p {
     text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .tour-dates-wrapper {
