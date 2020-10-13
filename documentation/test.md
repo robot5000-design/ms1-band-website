@@ -59,7 +59,7 @@ Back Link | | | | | | | | y
 ## 3. Forms:
 
 - Check Subscribe Form: Input required. Not active. No error. Working as expected.
-- Check Contact Form: All inputs required. Not active. No error. Working as expected.
+- Check Contact Form: Name, email, message inputs required. Not active. No error. Working as expected.
 
 
 ## 4. Page Responsiveness:
@@ -75,7 +75,7 @@ H450px | y | y | y | y | y | y | y
 
 - In addition each page is checked for responsiveness using Chrome Dev Tools infinitely
 	adjustable sliding re-sizer tool. From 280px (Samsung Galaxy Fold) up to full width
-	1536px on a 4k laptop. The 404 page was checked this way.
+	1536px on a 4k laptop. The 404 page not included in the above table was checked this way.
 - Any problems are mentioned in the Summary below.
 
 ---
