@@ -31,7 +31,7 @@ Click the image to be taken to a live demo of the site:
 [![homepage][1]][2]
 
 [1]: ./documentation/images-for-readme/am-i-responsive.JPG
-[2]: https://robot5000-design.github.io/project_one/index.html "Live Site"
+[2]: https://robot5000-design.github.io/ms1-band-website/index.html "Live Site"
 
 ---
 
@@ -470,7 +470,7 @@ page appears unstyled. Thanks again to the Slack community for pointing this out
 
 ### **5. Deployment**
 
-The site has been deployed on Github pages [here](https://robot5000-design.github.io/project_one/index.html).
+The site has been deployed on Github pages [here](https://robot5000-design.github.io/ms1-band-website/index.html).
 
 _To Deploy on Github Pages:_
 
