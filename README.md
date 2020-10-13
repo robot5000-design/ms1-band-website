@@ -377,17 +377,17 @@ The site has been tested on the following browsers on Windows 10:
 - Internet Explorer 11
 - Firefox 81.0.1
 - Google Chrome 85.0.4183.121
-- Safari 13.1 on Mac
 - Samsung on Android 8.0.0
 - Opera 1.0.3770.228
 - Microsoft Edge 86.0.622.38
+- Safari 13.1 on Mac using www.browserstack.com
 
 The site has been tested on both mobile and desktop for responsiveness.
 In addition to Chrome Development Tools, BrowserStack allowed for limited additional
 testing on Apple desktop and mobile.
 
 Any issues have been cataloged in the Issues section on Github and closed
-when a sufficient solution was reached.
+when a sufficient solution was reached. 
 
 __Further testing of links and responsiveness can be found in the [test document](./documentation/test.md).__
 
